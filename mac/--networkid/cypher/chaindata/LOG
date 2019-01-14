@@ -122,3 +122,25 @@
 22:02:20.589549 db@janitor F·13 G·0
 22:02:20.589642 db@open done T·16.49774ms
 22:02:20.589707 table@compaction L0·11 -> L1·0 S·1MiB Q·21319
+=============== Jan 14, 2019 (CST) ===============
+15:56:59.951840 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:56:59.953433 version@stat F·[11] S·1MiB[1MiB] Sc·[2.75]
+15:56:59.953474 db@open opening
+15:56:59.953608 journal@recovery F·1
+15:56:59.959133 journal@recovery recovering @33
+15:56:59.960821 memdb@flush created L0@35 N·4 S·565B "Dat..ion,v21321":"eth..\xb0\"\x84,v21320"
+15:56:59.969446 version@stat F·[12] S·1MiB[1MiB] Sc·[3.00]
+15:56:59.971054 db@janitor F·14 G·0
+15:56:59.971102 db@open done T·17.607866ms
+15:56:59.971200 table@compaction L0·12 -> L1·0 S·1MiB Q·21324
+=============== Jan 14, 2019 (CST) ===============
+15:57:08.624558 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:57:08.624891 version@stat F·[12] S·1MiB[1MiB] Sc·[3.00]
+15:57:08.624931 db@open opening
+15:57:08.625074 journal@recovery F·1
+15:57:08.630190 journal@recovery recovering @36
+15:57:08.631709 memdb@flush created L0@38 N·4 S·565B "Dat..ion,v21326":"eth..\xb0\"\x84,v21325"
+15:57:08.640012 version@stat F·[13] S·1MiB[1MiB] Sc·[3.25]
+15:57:08.641997 db@janitor F·15 G·0
+15:57:08.642047 db@open done T·17.094346ms
+15:57:08.642132 table@compaction L0·13 -> L1·0 S·1MiB Q·21329
