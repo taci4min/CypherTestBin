@@ -1,7 +1,7 @@
 #!/bin/bash
-
+//
 TOP_PID=$$
-CYPHER="/root/work/src/github.com/cypherium/CypherTestNet/go-cypherium/build/bin/cypher"
+CYPHER="/root/work/src/github/cypherium/CypherTestNet/go-cypherium/build/bin/cypher"
 GENESIS="./genesis.json"
 NODE_DIR="chaindb"
 NODES_MAX=10
@@ -17,7 +17,6 @@ STOP="stop"
 NEWACCOUNT="newAccount"
 LISTACCOUNT="listAccount"
 BOOTNODE="cnode://e8f173c46c20df08b1f029502ca9b537c7d4d3a02d2434cd18f952a08766e6a3c052b19f3b8e2e130cdc82d2b86d1254b1fc2e6b10fe4bec035a9c88f488fc45@208.43.19.146:30301"
-
 log()
 {
     echo 1>&2 "$1"
@@ -95,7 +94,7 @@ new_account()
 #
 append_node()
 {
-    cd /root/work/src/github.com/cypherium/CypherTestNet/go-cypherium
+    cd /root/work/src/github/cypherium/CypherTestNet/go-cypherium
     log "Append $NODES_NUM nodes...."
     for m in $( seq $NODES_NUM ); do
         n=$(($1 + m))
