@@ -62,7 +62,7 @@ V. With the database up and running, try out these commands
   5. miner.content()
     work's proof detail list
     
-  6.cph.accounts
+  6. cph.accounts
     list all the accounts
     
   7. personal.newAccount
@@ -84,7 +84,7 @@ VI. Okay, so now let’s have some real fun: assign testnet cypher coins to your
   5. Delete the folder name db/cypher or execution command “sudo rm -rf db/cypher”
 
   6. Reinit database
-   .build/bin/cypher –datadir d binit genesis.json
+    .build/bin/cypher –datadir d binit genesis.json
   7. Restart process
     ./ustart.sh
 
