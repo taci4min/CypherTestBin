@@ -1,3 +1,0 @@
-cph.keyBlockNumber()
-eth.getBalance("0x81e71d34e8a9e4382c36fd90c3f234549106addd")
-cph.getBalance("0x81e71d34e8a9e4382c36fd90c3f234549106addd")
