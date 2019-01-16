@@ -6,7 +6,7 @@
         "eip158Block": 0,
         "committee":{
           "0":{
-            "address":"tcp://67.228.187.202:7000",
+            "address":"tcp://208.43.19.151:7000",
             "suite":"Ed25519",
             "public":"e52426a55834fac9a7b412bd58509bdec42869344a743a51a4cf712e1ef1f08e",
             "description":"Cnode_1"
@@ -53,22 +53,7 @@
             "suite":"Ed25519",
             "public":"8af2317121a4622cace9691b05b5659a3faaf81500abdfe6cbdabb6ca7a56990",
             "description":"Cnode_8"
-          },
-          "8":{
-            "address":"tcp://208.43.19.149:7000",
-            "suite":"Ed25519",
-            "public":"8dcbac1ab92787f3bb340fae85e88c4391291d7314ad39b2807e5c20e1aa7859",
-            "description":"Cnode_9"
-          },
-          "9":{
-            "address":"tcp://208.43.19.151:7000",
-            "suite":"Ed25519",
-            "public":"e2985a70968e7a2d9985aa2f92b720e80685de69f5659d47501fbb4e3d569a9d",
-            "description":"Cnode_10"
           }
-
-
-
         }
     },
   "alloc": {
