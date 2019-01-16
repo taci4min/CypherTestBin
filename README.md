@@ -52,11 +52,23 @@ V. With the database up and running, try out these commands
   1.cph.keyBlockNumber()
 
   2. cph.txBlockNumber
+  
+  3. net
+    check how many other cypher nodes have connected to my cypher node
+    
+  4. admin.peers
+    detail of connected peer pairs with my node
+    
+  5. miner.content()
+    work's proof detail list
+    
+  6.cph.accounts
+    list all the accounts
+    
+  7. personal.newAccount
+   Between the quotation marks (“ ”) assign one (1) password.
 
-  3. personal.newAccount
-Between the quotation marks (“ ”) assign one (1) password.
-
-  4. cph.getBalance(…)
+  8. cph.getBalance(…)
     i. cph.getBalance(“0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4”)
     ii. Here, the string of (“0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4”) is your wallet’s public key. Copy and store it when you’re executing the command “personal.newAccount(…)”; or the command “cph.accounts” to list all accounts.
 
@@ -79,42 +91,31 @@ VI. Okay, so now let’s have some real fun: assign testnet cypher coins to your
 VII. Try an automatic send transaction
 
  i. personal.unlockAll(“1”)
-
+    whith password "1" will unlock all your accounts in your wallet,just for demonstration test
  ii. cph.autoTransaction(1,10)
-
+     auto transaction,just for demonstration test
  iii. Stop auto transaction
   cph.autoTransaction(0,10)
 
-  iv. txpool.content
-
+ iv. txpool.content
+     all transactions in your nodes database and memory.
+     
 Ⅷ. Manual Send Transaction Demonstration
-  i.Guarantee you have two account
+   i.Guarantee you have two account
    check this through “cph.accounts”
    If you do not have,please new two accouts by using comand “ personal.newAccount() “
 
-  ii.check your account balance
-   cph.getBalance("0x461f9d24b10edca41c1d9296f971c5c028e6c64c")
+   ii.check your account balance
+   cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
    cph.getBalance("0x01482d12a73186e9e0ac1421eb96381bbdcd4557")
 
-  iii.unlock your account
-   personal.unlockAccount("0x461f9d24b10edca41c1d9296f971c5c028e6c64c")
+   iii.unlock your account
+   personal.unlockAccount("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
 
-  iv.sendTransaction
-   cph.sendTransaction({from:'461f9d24b10edca41c1d9296f971c5c028e6c64c',to: '01482d12a73186e9e0ac1421eb96381bbdcd4557', value:    1000})
+   iv.sendTransaction
+   cph.sendTransaction({from:'0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4',to: '01482d12a73186e9e0ac1421eb96381bbdcd4557', value:    1000})
 
-  v.wait several seconds to checkout balance
-    cph.getBalance("0x461f9d24b10edca41c1d9296f971c5c028e6c64c")
+   v.wait several seconds to checkout balance
+    cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
     cph.getBalance("0x01482d12a73186e9e0ac1421eb96381bbdcd4557")
-
-10. net
-    check how many other cypher nodes have connected to my cypher node
-11. admin.peers
-    detail of connected peer pairs with my node
-12. miner.content()
-    work's proof detail list
-
-
-
-
-
 
