@@ -100,6 +100,7 @@ VII. Try an automatic send transaction
      all transactions in your nodes database and memory.
      
 Ⅷ. Manual Send Transaction Demonstration
+
    i. Guarantee you have two account
    check this through “cph.accounts”
    If you do not have,please new two accouts by using comand “ personal.newAccount() “
