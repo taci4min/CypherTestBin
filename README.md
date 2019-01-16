@@ -101,21 +101,21 @@ VII. Try an automatic send transaction
      all transactions in your nodes database and memory.
      
 Ⅷ. Manual Send Transaction Demonstration
-   i.Guarantee you have two account
+   i. Guarantee you have two account
    check this through “cph.accounts”
    If you do not have,please new two accouts by using comand “ personal.newAccount() “
 
-   ii.check your account balance
+   ii. check your account balance
    cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
    cph.getBalance("0x01482d12a73186e9e0ac1421eb96381bbdcd4557")
 
-   iii.unlock your account
+   iii. unlock your account
    personal.unlockAccount("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
 
-   iv.sendTransaction
+   iv. sendTransaction
    cph.sendTransaction({from:'0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4',to: '01482d12a73186e9e0ac1421eb96381bbdcd4557', value:    1000})
 
-   v.wait several seconds to checkout balance
+   v. wait several seconds to checkout balance
     cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
     cph.getBalance("0x01482d12a73186e9e0ac1421eb96381bbdcd4557")
 
