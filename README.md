@@ -89,7 +89,6 @@ VI. Okay, so now let’s have some real fun: assign testnet cypher coins to your
     ./ustart.sh
 
 VII. Try an automatic send transaction
-
  i. personal.unlockAll(“1”)
     whith password "1" will unlock all your accounts in your wallet,just for demonstration test
  ii. cph.autoTransaction(1,10)
