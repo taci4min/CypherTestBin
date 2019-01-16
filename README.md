@@ -5,7 +5,6 @@ Cypherium is compatible with Mac, Windows, and Ubuntu operating systems.
 
 II. Download repository
 There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, and another for those who run the git clone. Either will work, depending on your preference.
-
 1. Download method number one — for users not instilling the git
   i. Please visit https://github.com/cypherium/CypherTestBin
 
