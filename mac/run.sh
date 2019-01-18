@@ -1,9 +1,11 @@
 #!/bin/bash
-//
+
 TOP_PID=$$
-CYPHER="/root/work/src/github/cypherium/CypherTestNet/go-cypherium/build/bin/cypher"
-GENESIS="./genesis.json"
-NODE_DIR="chaindb"
+basepath=$(cd `dirname $0`; pwd)
+CYPHER="$basepath/build/bin/cypher"
+echo $CYPHER
+GENESIS="$basepath/genesis.json"
+NODE_DIR="$basepath/chaindb"
 NODES_MAX=10
 NODES_NUM=0
 ACCOUNTSLIST="$NODE_DIR/accounts.txt"
@@ -44,7 +46,8 @@ init_node()
     log "Init nodes...."
     for n in $( seq $NODES_NUM ); do
         mkdir -p "$NODE_DIR/$n"
-        $CYPHER --datadir "$NODE_DIR/$n" init "$GENESIS"
+       # $CYPHER --datadir "$NODE_DIR/$n" init "$GENESIS"
+        ./build/bin/cypher --datadir "$NODE_DIR/$n" init genesis.json
     done
 }
 
@@ -94,7 +97,7 @@ new_account()
 #
 append_node()
 {
-    cd /root/work/src/github/cypherium/CypherTestNet/go-cypherium
+   # cd /root/wo/src/github/cypherium/CypherTestNet/go-cypherium
     log "Append $NODES_NUM nodes...."
     for m in $( seq $NODES_NUM ); do
         n=$(($1 + m))
