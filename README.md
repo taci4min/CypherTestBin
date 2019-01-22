@@ -47,6 +47,7 @@ IV. Troubleshooting
    1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
    3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
+   4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
    
 V. With the database up and running, try out these commands
   1.cph.keyBlockNumber()
