@@ -28,30 +28,6 @@
             "suite":"Ed25519",
             "public":"105d040a81e4c11d20afc1e9035386e7b2a645f72d09d1386509dab703b8f2b6",
             "description":"Cnode_4"
-          },
-          "4":{
-            "address":"tcp://67.228.187.205:7000",
-            "suite":"Ed25519",
-            "public":"2cfb744600f1e3d20915973c569bae8e70ed2c92cc7d40c0a344e010c948c901",
-            "description":"Cnode_5"
-          },
-          "5":{
-            "address":"tcp://208.43.19.155:7000",
-            "suite":"Ed25519",
-            "public":"ec4a9ecee032316be4777526e695a114d059374736b997d866cc713d164d579f",
-            "description":"Cnode_6"
-          },
-          "6":{
-            "address":"tcp://208.43.19.146:7000",
-            "suite":"Ed25519",
-            "public":"b19b95251421bb8076f99859cdfc5cac4f38854ed32affe04e04e91f1e55ef3d",
-            "description":"Cnode_7"
-          },
-          "7":{
-            "address":"tcp://208.43.19.149:7000",
-            "suite":"Ed25519",
-            "public":"8af2317121a4622cace9691b05b5659a3faaf81500abdfe6cbdabb6ca7a56990",
-            "description":"Cnode_8"
           }
 
         }
