@@ -51,7 +51,7 @@ IV. Troubleshooting
    
 V. With the database up and running, try out these commands
 
-  1.cph.keyBlockNumber
+   1.cph.keyBlockNumber
 
   2. cph.txBlockNumber
   
