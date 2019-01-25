@@ -50,6 +50,7 @@ IV. Troubleshooting
    4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
    
 V. With the database up and running, try out these commands
+
   1.cph.keyBlockNumber
 
   2. cph.txBlockNumber
