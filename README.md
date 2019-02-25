@@ -70,37 +70,22 @@ V. With the database up and running, try out these commands
   7. personal.newAccount
    Between the quotation marks (“ ”) assign one (1) password.
 
-  8. cph.getBalance(…)
-    i. cph.getBalance(“0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4”)
-    ii. Here, the string of (“0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4”) is your wallet’s public key. Copy and store it when you’re executing the command “personal.newAccount(…)”; or the command “cph.accounts” to list all accounts.
+  8.cph.getBalance(...)
+   cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
+   The string of “ 0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4” is your wallet account.
+   This	wallet account string you shoud copy and store it when you executiong comand “ personal.newAccount(...) “; also your can using command “ cph.accounts ” to find if from  serveal acccounts.
 
-VI. Okay, so now let’s have some real fun: assign testnet cypher coins to your account.
-  1.First, exit the current process
-
-  2. Edit genesis.json by using textEdit.app or “vi genesis.json”
-
-  3. Find this section of text and replace the account number with your own.
-
-  4. After plugging in your wallet, store it.
-
-  5. Delete the folder name db/cypher or execution command “sudo rm -rf db/cypher”
-
-  6. Reinit database
-    .build/bin/cypher –datadir d binit genesis.json
-  7. Restart process
-    ./ustart.sh
-
-VII. Try an automatic send transaction
- i. personal.unlockAll(“1”)
-    whith password "1" will unlock all your accounts in your wallet,just for demonstration test
- ii. cph.autoTransaction(1,10)
-     auto transaction,just for demonstration test
- iii. Stop auto transaction
-  cph.autoTransaction(0,10)
-
- iv. txpool.content
-     all transactions in your nodes database and memory.
-     
+  9.Abount miner work
+   Miner’work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
+  a.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
+    First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account
+  b.miner.status()
+   You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.If your node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully.
+   Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
+  c.miner.content()
+   you can check miner’s candidate from yourself and other nodes.
+  d.miner.stop()
+    Stop the to find candidate to take part in consensus.
 Ⅷ. Manual Send Transaction Demonstration
 
    i. Guarantee you have two account
