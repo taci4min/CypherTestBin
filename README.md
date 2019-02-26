@@ -75,7 +75,7 @@ V. With the database up and running, try out these commands
    The string of “ 0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4” is your wallet account.
    This	wallet account string you shoud copy and store it when you executiong comand “ personal.newAccount(...) “; also your can using command “ cph.accounts ” to find if from  serveal acccounts.
 
-  9.Abount miner work
+  9.About miner work
    Miner’work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
   a.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
     First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account
