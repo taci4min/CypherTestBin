@@ -75,17 +75,22 @@ V. With the database up and running, try out these commands
    The string of “ 0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4” is your wallet account.
    This	wallet account string you shoud copy and store it when you executiong comand “ personal.newAccount(...) “; also your can using command “ cph.accounts ” to find if from  serveal acccounts.
 
-  9.About miner work
-   Miner’work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
-  a.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
-    First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account
-  b.miner.status()
-   You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.If your node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully.
-   Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
-  c.miner.content()
-   you can check miner’s candidate from yourself and other nodes.
-  d.miner.stop()
-    Stop the to find candidate to take part in consensus.
+  9.Abount miner work
+Miner’work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
+
+a.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
+First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account.You must be enter your password.
+
+
+b.miner.status()
+After miner.start(),your can check your current status or your current node role by using function for miner.status():
+
+c.You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:
+
+
+Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
+d.miner.content()
+you can check miner’s candidate from yourself and other nodes.
 Ⅷ. Manual Send Transaction Demonstration
 
    i. Guarantee you have two account
