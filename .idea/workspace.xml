@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5477d7eb-90f6-49a3-aa56-66f03abea63f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/bootnode.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/build/bin/cypher" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/genesis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/ustart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/linux/ustart.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/bootnode.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/build/bin/cypher" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/genesis.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/run.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mac/ustart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/mac/ustart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/cypher" beforeDir="false" afterPath="$PROJECT_DIR$/linux/cypher" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/mac/ustart.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -122,7 +112,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="725" />
@@ -262,7 +252,7 @@
     <entry file="file://$PROJECT_DIR$/mac/ustart.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
