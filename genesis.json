@@ -87,7 +87,7 @@
     }
   },
   "coinbase"   : "0x0000000000000000000000000000000000000000",
-  "difficulty" : "0x1000",
+  "difficulty" : "0x4400CC",
   "extraData"  : "",
   "gasLimit"   : "0x87E7C4",
   "nonce"      : "0x0000000000000042",
