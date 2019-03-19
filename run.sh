@@ -1,7 +1,7 @@
 #!/bin/sh
 OSTYPE=$1
 NODE_DIR="./$OSTYPE/db"
-NETWORKID=123910
+NETWORKID=123911
 BOOTDIR="./bootnode.log"
 GENESISDIR="./genesis.json"
 BINDIR="./$OSTYPE/cypher"
