@@ -1,12 +1,12 @@
 {
   "config": {
-        "chainId": 123932,
+        "chainId": 123936,
         "homesteadBlock": 0,
         "eip155Block": 0,
         "eip158Block": 0,
         "committee":{
           "0": {
-            "address": "tcp://18.237.182.105:7000",
+            "address": "tcp://34.219.20.122:7000",
             "suite": "Ed25519",
             "public": "e52426a55834fac9a7b412bd58509bdec42869344a743a51a4cf712e1ef1f08e",
             "description": "Cnode_0"
