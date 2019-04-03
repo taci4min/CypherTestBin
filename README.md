@@ -13,21 +13,21 @@ Download repository
 There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, <br>
 and another for those who run the git clone. Either will work, depending on your preference.\<br>
 #### * Download method number one — for users not installing the git
-  #####1. Please visit https://github.com/cypherium/CypherTestBin
+  ##### 1. Please visit https://github.com/cypherium/CypherTestBin
 
-  #####2. Click “Download ZIP”
+  ##### 2. Click “Download ZIP”
 
-  #####3. When the download is complete, extract the folder.
+  ##### 3. When the download is complete, extract the folder.
 
-  #####4. Rename the folder, “CypherTestBin.”
+  ##### 4. Rename the folder, “CypherTestBin.”
 
-  #####5. Next, open terminal.
+  ##### 5. Next, open terminal.
   ```
   cd ~/Downloads/CypherTestBin
   ls
   ```
   You will see two folders: mac is for MacOS and ubuntu16.04 for Ubuntu system.
-  #####vii.select one folder according to your operating system
+  ##### vii.select one folder according to your operating system
   ```
   cd mac
   or
