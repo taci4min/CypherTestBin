@@ -44,7 +44,7 @@ and another for those who run the git clone. Either will work, depending on your
   cd CypherTestBin
   ls
  ```
- #### 2. You will see two folders: mac is for MacOS and linux for Linux system.
+ #### 2. You will see two folders: `mac` is for MacOS and `linux` for Linux system.
  ```
   cd mac
 ```
@@ -65,11 +65,11 @@ Congratulations! You have successfully started the Cypherium testnet!
 Troubleshooting
 ---
   If you cannot execute the bin, try the following tips
-   * 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
+   *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
-   * 2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
-   * 3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
-   * 4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
+   * Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
+   * Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
+   * Execute shell "./urestart.sh" can delete database automic,and resart direct.
 
 With the database up and running, try out these commands
 ---
@@ -129,8 +129,8 @@ Manual Send Transaction Demonstration
 Miner’s work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one 
 candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
 READY:Install p2p assistant software
- We command you using VPS such AWS ec2 which has public IP to deploy your miner node.If there you are,skip this step. If not,you will install one assistant software named “zerotier”
-   #### * For Mac
+ We command you using VPS such AWS ec2 which has `public IP` to deploy your miner node.If there you are,skip this step. If not,you will install one assistant software named `“zerotier”`
+   #### * `For Mac`
 Enter the URL：
 https://www.zerotier.com/download.shtml
    Find Apple macintosh
@@ -156,7 +156,7 @@ Immediately,will pop up “Security & Privacy”,Allow it:
 recheck “Network Details”,it’s Status has became to be “OK”
 
 
-#### * For Linux
+#### * `For Linux`
 Open terminal,copy and paste next command:
 ```
 curl -s https://install.zerotier.com/ | sudo bash
@@ -166,7 +166,7 @@ sudo zerotier-cli join 83048a063200db6c
 sudo zerotier-cli info
 ```
 Tips:these operation command will need your password of your user’s account
->RUN:Operator miner functions
+RUN:Operator miner functions
 ---
 #### 1.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
 First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account.You must be enter your password.
