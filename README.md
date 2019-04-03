@@ -6,13 +6,13 @@ Cypherium has just released its public testnet. This tutorial will help develope
 
 Operating system support
 ---
-Cypherium is compatible with Mac, Windows, and Ubuntu operating systems.
+Cypherium is compatible with Mac, Windows, and Linux operating systems.
 
 Download repository
 ---
 There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, <br>
 and another for those who run the git clone. Either will work, depending on your preference.\<br>
-#### * Download method number one — for users not installing the git
+* #### Download method number one — for users not installing the git
   ##### 1. Please visit https://github.com/cypherium/CypherTestBin
 
   ##### 2. Click “Download ZIP”
@@ -26,14 +26,14 @@ and another for those who run the git clone. Either will work, depending on your
   cd ~/Downloads/CypherTestBin
   ls
   ```
-  You will see two folders: mac is for MacOS and ubuntu16.04 for Ubuntu system.
+  You will see two folders: mac is for MacOS and linux for Linux system.
   ##### vii.select one folder according to your operating system
   ```
   cd mac
   or
-  cd ubuntu16.04
+  cd linux
   ````
-#### Second download method — if using git clone
+* #### Second download method — if using git clone
 
  #### 1. Open the terminal and clone repository:
  ```
@@ -41,10 +41,10 @@ and another for those who run the git clone. Either will work, depending on your
   cd CypherTestBin
   ls
  ```
- #### 2. You will see two folders: mac is for MacOS and ubuntu16.04 for Ubuntu system.
+ #### 2. You will see two folders: mac is for MacOS and linux for Linux system.
  ```
   cd mac
-  or cd ubuntu16.04
+  or cd linux
  ```
  Run the Cypher Process
  ---
@@ -52,18 +52,18 @@ and another for those who run the git clone. Either will work, depending on your
  #### init database
  ```
  ./build/bin/cypher — datadir db init genesis.json
- ####  ./ustart.sh
+ ./ustart.sh
  ```
 Congratulations! You have successfully started the Cypherium testnet!
 
 Troubleshooting
 ---
   If you cannot execute the bin, try the following tips
-   1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. <br>
+   #### 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. <br>
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)\<br>
-   2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
-   3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
-   4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
+   #### 2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
+   #### 3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
+   #### 4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
 
 With the database up and running, try out these commands
 ---
