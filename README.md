@@ -166,6 +166,7 @@ sudo zerotier-cli join 83048a063200db6c
 sudo zerotier-cli info
 ```
 Tips:these operation command will need your password of your user’s account
+
 RUN:Operator miner functions
 ---
 #### 1.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
