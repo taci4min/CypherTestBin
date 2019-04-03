@@ -30,11 +30,12 @@ and another for those who run the git clone. Either will work, depending on your
   ##### vii.select one folder according to your operating system
   ```
   cd mac
-  ````
+  ```
   or
-  ````
+  
+  ``` 
   cd linux
-  ````
+  ```
 * #### Second download method — if using git clone
 
  #### 1. Open the terminal and clone repository:
@@ -46,9 +47,9 @@ and another for those who run the git clone. Either will work, depending on your
  #### 2. You will see two folders: mac is for MacOS and linux for Linux system.
  ```
   cd mac
-  ````
+```
   or
-  ````
+```
   cd linux
  ```
  Run the Cypher Process
