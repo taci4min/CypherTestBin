@@ -10,8 +10,8 @@ Cypherium is compatible with Mac, Windows, and Linux operating systems.
 
 Download repository
 ---
-There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, <br>
-and another for those who run the git clone. Either will work, depending on your preference.\<br>
+There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, 
+and another for those who run the git clone. Either will work, depending on your preference.
 * #### Download method number one — for users not installing the git
   ##### 1. Please visit https://github.com/cypherium/CypherTestBin
 
@@ -59,8 +59,8 @@ Congratulations! You have successfully started the Cypherium testnet!
 Troubleshooting
 ---
   If you cannot execute the bin, try the following tips
-   #### 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. <br>
-   If you have not created a root password yet, “su passwd” will help you set a password to your root account.)\<br>
+   #### 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. 
+   If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    #### 2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
    #### 3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
    #### 4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
@@ -82,8 +82,8 @@ Among " " your should assign one password
 #### 6. cph.getBalance(...)
 cph.getBalance("0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
    The string of “ 0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4” is your wallet account.
-This	wallet account string you shoud copy and store it when you executiong comand<br>
- “ personal.newAccount(...) “; also your can using command “ cph.accounts ” to find if from  serveal acccounts.\<br>
+This	wallet account string you shoud copy and store it when you executiong comand
+ “ personal.newAccount(...) “; also your can using command “ cph.accounts ” to find if from  serveal acccounts.
 
 Txpool
 --
@@ -120,8 +120,8 @@ cph.sendTransaction({from:'461f9d24b10edca41c1d9296f971c5c028e6c64c',to: '01482d
 
 Manual Send Transaction Demonstration
 --
-Miner’s work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one <br>
-candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.\<br>
+Miner’s work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one 
+candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
 READY:Install p2p assistant software
  We command you using VPS such AWS ec2 which has public IP to deploy your miner node.If there you are,skip this step. If not,you will install one assistant software named “zerotier”
    #### * For Mac
@@ -169,8 +169,8 @@ First param 1 is for threads accord to you computer power;Second param is "0x2db
 #### 2.miner.status()
 After miner.start(),your can check your current status or your current node role by using function for miner.status():
 
-You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.<br>
-If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:\<br>
+You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.
+If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:
 e
 
 Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
