@@ -169,12 +169,12 @@ First param 1 is for threads accord to you computer power;Second param is "0x2db
 #### 2.miner.status()
 After miner.start(),your can check your current status or your current node role by using function for miner.status():
 
-#### 3.You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.<br>
+You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.<br>
 If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:\<br>
 e
 
 Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
-#### 4.miner.content()
+#### 3.miner.content()
 you can check miner’s candidate from yourself and other nodes.
 
 
