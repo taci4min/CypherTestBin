@@ -30,7 +30,9 @@ and another for those who run the git clone. Either will work, depending on your
   ##### vii.select one folder according to your operating system
   ```
   cd mac
+  ````
   or
+  ````
   cd linux
   ````
 * #### Second download method — if using git clone
@@ -44,7 +46,10 @@ and another for those who run the git clone. Either will work, depending on your
  #### 2. You will see two folders: mac is for MacOS and linux for Linux system.
  ```
   cd mac
-  or cd linux
+  ````
+  or
+  ````
+  cd linux
  ```
  Run the Cypher Process
  ---
@@ -59,11 +64,11 @@ Congratulations! You have successfully started the Cypherium testnet!
 Troubleshooting
 ---
   If you cannot execute the bin, try the following tips
-   #### 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password. 
+   * 1. Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
-   #### 2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
-   #### 3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
-   #### 4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
+   * 2. Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
+   * 3. Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
+   * 4. Execute shell "./urestart.sh" can delete database automic,and resart direct.
 
 With the database up and running, try out these commands
 ---
