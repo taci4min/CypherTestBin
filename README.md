@@ -130,7 +130,7 @@ Miner’s work is to find a proof of work which will be called candidate accordi
 candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
 READY:Install p2p assistant software
  We command you using VPS such AWS ec2 which has `public IP` to deploy your miner node.If there you are,skip this step. If not,you will install one assistant software named `“zerotier”`
-   #### * `For Mac`
+   * #### `For Mac`
 Enter the URL：
 https://www.zerotier.com/download.shtml
    Find Apple macintosh
@@ -156,7 +156,7 @@ Immediately,will pop up “Security & Privacy”,Allow it:
 recheck “Network Details”,it’s Status has became to be “OK”
 
 
-#### * `For Linux`
+* #### `For Linux`
 Open terminal,copy and paste next command:
 ```
 curl -s https://install.zerotier.com/ | sudo bash
