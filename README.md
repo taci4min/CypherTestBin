@@ -151,7 +151,7 @@ Open the terminal enter command:
 ```
 open "x-apple.systempreferences:com.apple.preference.security?General"
 ```
-Immediately,will pop up “Security & Privacy”,Allow it:
+Immediately,will pop up “`Security & Privacy`”,Allow it:
 
 recheck “Network Details”,it’s Status has became to be “OK”
 
