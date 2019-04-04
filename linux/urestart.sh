@@ -1,3 +1,3 @@
 #!/bin/sh
-sudo rm -rf db/cypher db/cypher.ipc db/output.log
+sudo rm -rf chaindb/cypher chaindb/cypher.ipc chaindb/output.log
 ./ustart.sh

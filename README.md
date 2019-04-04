@@ -100,7 +100,7 @@ and another for those who run the git clone. Either will work, depending on your
 
  #### init database
  ```
- ./build/bin/cypher — datadir db init genesis.json
+ ./build/bin/cypher — datadir chaindb init genesis.json
  ./ustart.sh
  ```
 Congratulations! You have successfully started the Cypherium testnet!
@@ -111,7 +111,7 @@ Troubleshooting
    *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    * Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
-   * Execute “sudo rm -rf db” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
+   * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./build/bin/cypher –datadir  d binit genesis.json”
    * Execute shell "./urestart.sh" can delete database automic,and resart direct.
 
 With the database up and running, try out these commands
