@@ -50,28 +50,6 @@ sudo zerotier-cli info
 ```
 Tips:these operation command will need your password of your user’s account
 
-RUN:Operator miner functions
----
-#### 1.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
-First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account.You must be enter your password.
-
-
-#### 2.miner.status()
-After miner.start(),your can check your current status or your current node role by using function for miner.status():
-
-You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.
-If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:
-e
-
-Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
-#### 3.miner.content()
-you can check miner’s candidate from yourself and other nodes.
-
-
-#### 4.miner.stop()
-Stop the to find candidate to take part in consensus.
-
-
 Download repository
 ---
 There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, 
@@ -187,4 +165,24 @@ cph.sendTransaction({from:'461f9d24b10edca41c1d9296f971c5c028e6c64c',to: '01482d
  cph.getBalance("0x461f9d24b10edca41c1d9296f971c5c028e6c64c")
  cph.getBalance("0x01482d12a73186e9e0ac1421eb96381bbdcd4557")
 ```
+RUN:Operator miner functions
+---
+#### 1.miner.start(1, "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4")
+First param 1 is for threads accord to you computer power;Second param is "0x2dbde7263aaaf1286b9c41b1138191e178cb2fd4" is your account.You must be enter your password.
+
+
+#### 2.miner.status()
+After miner.start(),your can check your current status or your current node role by using function for miner.status():
+
+You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.
+If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:
+e
+
+Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
+#### 3.miner.content()
+you can check miner’s candidate from yourself and other nodes.
+
+
+#### 4.miner.stop()
+Stop the to find candidate to take part in consensus.
 
