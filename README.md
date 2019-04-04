@@ -7,6 +7,7 @@ Cypherium has just released its public testnet. This tutorial will help develope
 Operating system support
 ---
 Cypherium is compatible with Mac, Windows, and Linux operating systems.
+
 Install P2P assistant software
 --
 Miner’s work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one
