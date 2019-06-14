@@ -8,48 +8,9 @@ Operating system support
 ---
 Cypherium is compatible with Mac, Windows, and Linux operating systems.
 
-Install P2P assistant software
+Public Ip
 --
-Miner’s work is to find a proof of work which will be called candidate according to latest parent txBlockNumber.Through finding one
-candidate to get the chance that can be chosen into committee as leader or member.To take part in consensus without banzantium you account will be get reward.
-READY:Install p2p assistant software
- We command you using VPS such AWS ec2 which has `public IP` to deploy your miner node.If there you are,skip this step. If not,you will install one assistant software named `“zerotier”`
-   * #### `For Mac`
-Enter the URL：
-https://www.zerotier.com/download.shtml
-   Find Apple macintosh
-
-   Click and Download the” ZeroTier One.pkg”.
-   After installing completed.you can find one icon appear at right hand on top banner of your mac:
-
-   Click it,pop up select menu:
-
-   Click “Join Network”
-
-Type in network id “ 83048a063200db6c ”
-check “Network Details”
-
-If the “Staus” show “PORT_ERROR” like below:
-
-Open the terminal enter command:
-```
-open "x-apple.systempreferences:com.apple.preference.security?General"
-```
-Immediately,will pop up “`Security & Privacy`”,Allow it:
-
-recheck “Network Details”,it’s Status has became to be “OK”
-
-
-* #### `For Linux`
-Open terminal,copy and paste next command:
-```
-curl -s https://install.zerotier.com/ | sudo bash
-sudo zerotier-cli join 83048a063200db6c
-```
-```
-sudo zerotier-cli info
-```
-Tips:these operation command will need your password of your user’s account
+Your ip of your machine or VPS which used to deploy cypher node  must be `public IP`.such AWS ec2 which has `public IP` to deploy your cypher node!
 
 Download repository
 ---
