@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 123002,
+    "chainId": 123003,
     "homesteadBlock": 0,
     "eip155Block": 0,
     "eip158Block": 0,
@@ -8,7 +8,7 @@
     "reconfigBlock":0,
     "committee":{
       "0": {
-        "address": "tcp://34.221.47.224:7000",
+        "address": "tcp://54.202.165.57:7000",
         "suite": "Ed25519",
         "coinbase": "461f9d24b10edca41c1d9296f971c5c028e6c64c",
         "public": "e52426a55834fac9a7b412bd58509bdec42869344a743a51a4cf712e1ef1f08e",
@@ -29,7 +29,7 @@
         "description": "Cnode_2"
       },
       "3": {
-        "address": "tcp://34.212.40.216:7000",
+        "address": "tcp://34.209.154.253:7000",
         "suite": "Ed25519",
         "coinbase": "86f4cccfab55af24c08cac6396fe10c98e8d3e0d",
         "public": "105d040a81e4c11d20afc1e9035386e7b2a645f72d09d1386509dab703b8f2b6",
@@ -43,14 +43,14 @@
         "description": "Cnode_4"
       },
       "5": {
-        "address": "tcp://18.237.157.189:7000",
+        "address": "tcp://34.208.146.123:7000",
         "suite": "Ed25519",
         "coinbase": "e89ec57f938dd0ecc595763d4082cb0f05a05e87",
         "public": "ec4a9ecee032316be4777526e695a114d059374736b997d866cc713d164d579f",
         "description": "Cnode_5"
       },
       "6": {
-        "address": "tcp://18.237.201.177:7000",
+        "address": "tcp://18.237.28.203:7000",
         "suite": "Ed25519",
         "coinbase": "33528b25c0b0cb6022d1cb9f41ba45ac485000a4",
         "public": "c50d3ce2c2f0ba4709f45933037608561eddb2615bf8cf7c671f95ea478e766f",
