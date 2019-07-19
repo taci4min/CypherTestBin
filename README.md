@@ -61,13 +61,14 @@ and another for those who run the git clone. Either will work, depending on your
  ---
 
  #### init database
+ for console detail print mode you should run this:
  ```
  ./ustart.sh
- ``` for console detail print mode
- or
+ ```
+ or  for silent mode,just show errors ,you should run this
  ```
  ./ustart.sh --silent
- ``` for silent mode,just show errors
+ ``` 
 Congratulations! You have successfully started the Cypherium testnet!
 
 Troubleshooting
