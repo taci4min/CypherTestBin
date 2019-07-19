@@ -73,7 +73,7 @@ Troubleshooting
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    * Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
    * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./cypher -–datadir chaindb  init ../genesis.json”
-   * Execute shell "./urestart.sh" can delete database automic,and restart directly.as soon as you finding the chainId is different from previous chaindId which is checked through executing
+   * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
      command "net",you should execute shell "./urestart.sh" to restart one new block chain for cypher.
 
 With the database up and running, try out these commands
