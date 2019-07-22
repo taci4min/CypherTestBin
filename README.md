@@ -86,7 +86,8 @@ Troubleshooting
    * Calculate the parent number "N-1" for finally stucked TxBlockNumber or KeyBlockNumber.We assume bad KeyBlockNumber N is 7077,so it's parent KeyBlockNumber is 7076:
 
       First we find this Block's(TxBlockNumber or KeyBlockNumber) hash.
-      ```cph.getKeyBlockByNumber(7076)
+      ```
+      cph.getKeyBlockByNumber(7076)
       {
         EpochPubKey: "0xe3146bd0443f698896d88a64a4ce3520120f44cd01c70e091e7d672db5ad6bf9",
         checkpoint: "0x1b97",
