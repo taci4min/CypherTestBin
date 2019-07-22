@@ -84,6 +84,7 @@ Troubleshooting
    * The simplest way is to run "```./urestart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
      height.
    * Calculate the parent number "N-1" for finally stucked TxBlockNumber or KeyBlockNumber.We assume bad KeyBlockNumber N is 7077,so it's parent KeyBlockNumber is 7076:
+
       First we find this Block's(TxBlockNumber or KeyBlockNumber) hash.
       ```cph.getKeyBlockByNumber(7076)
       {
