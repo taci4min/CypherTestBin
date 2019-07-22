@@ -116,7 +116,7 @@ Troubleshooting
       ```
       cph.rollbackKeyChainFrom("0x49be855b18f76868109b10b9e90c40f44b6af1f903f9fc67a695195c5a6ad82d")
       ```
-      Finally,run  " ```cph.keyBlockByNumber ```" to check is  sync and insert correct block.
+      Finally,run  " ```cph.keyBlockByNumber ```" to check  sync and insert action is go up.
 
 With the database up and running, try out these commands
 ---
