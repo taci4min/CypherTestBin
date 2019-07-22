@@ -68,18 +68,52 @@ and another for those who run the git clone. Either will work, depending on your
  or  for silent mode,just show errors ,you should run this
  ```
  ./ustart.sh --silent
- ``` 
+ ```
 Congratulations! You have successfully started the Cypherium testnet!
 
 Troubleshooting
 ---
-  If you cannot execute the bin, try the following tips
+  If you cannot execute the bin, try the following tips:
    *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    * Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
    * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./cypher -–datadir chaindb  init ../genesis.json”
    * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
-     command "net",you should execute shell "./urestart.sh" to restart one new block chain for cypher.
+  If  KeyBlockNumber or TxBlockNumber of your node is stucked or show errors repeat.try the following tips:
+   * The simplest way is to run "```./urestart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
+     height.
+   * Calculate the parent number "N-1" for finally stucked TxBlockNumber or KeyBlockNumber.We assume N-1 is 7076:
+      First we find this Block's(TxBlockNumber or KeyBlockNumber) hash.
+      ```cph.getKeyBlockByNumber(N-1)
+      {
+        EpochPubKey: "0xe3146bd0443f698896d88a64a4ce3520120f44cd01c70e091e7d672db5ad6bf9",
+        checkpoint: "0x1b97",
+        difficulty: "0xc5d486",
+        exceptions: ["0xcde869fa7e1b8fc65906adea570ac7e406aa16fec37e92c6ec2f71d163804255", "0x105d040a81e4c11d20afc1e9035386e7b2a645f72d09d1386509dab703b8f2b6"],
+        extraData: "0x",
+        hash: "0x49be855b18f76868109b10b9e90c40f44b6af1f903f9fc67a695195c5a6ad82d",
+        inAddress: ["e89ec57f938dd0ecc595763d4082cb0f05a05e87"],
+        inPubKey: ["0xec4a9ecee032316be4777526e695a114d059374736b997d866cc713d164d579f"],
+        leaderPubKey: "0xe52426a55834fac9a7b412bd58509bdec42869344a743a51a4cf712e1ef1f08e",
+        mixHash: "0xd336142baa2129f3e2059b39aa83d464b4c685d39050f7e9993c4608ec387d23",
+        nonce: "0x21baade4a3a39547",
+        number: 7076,
+        outAddress: ["4030936fda177443785e2e460d7971a68deb7c78"],
+        outPubKey: ["0x9079dab73b879ee760ff469a00b39aeb43e562469f16728ffcf6bbfe5c56b1de"],
+        parentHash: "0x0ea5219b93db8f98988dbde26ebb8c10e1f0924966ac25998454a1a051d9fc26",
+        signature: "0xae9566bac614dbf78ebbdf07a65785579c3144ee80763c8d042c2ac76d9a5f3c4009b6069081c8499cf22e4ee93c1922d468babe5cbb2818994a2a6af9a9210280",
+        signature1: "0x34790f7c8f7c532fae454569c534367dfb4fe0c2375d1045d436e78f9bc0c7020e7794fb3f3154b37b76ad468f598d6e7746c3b5e74d217adbb4f75a8104610180",
+        size: 583,
+        time: "0x5d3567e6",
+        type: 301,
+        version: "01"
+      }
+      ```
+      We find hash is "0x49be855b18f76868109b10b9e90c40f44b6af1f903f9fc67a695195c5a6ad82d"
+      ```
+      cph.rollbackKeyChainFrom("0x49be855b18f76868109b10b9e90c40f44b6af1f903f9fc67a695195c5a6ad82d")
+      ```
+      Finally,run  " ```cph.keyBlockByNumber ```" to check is  sync and insert correct block.
 
 With the database up and running, try out these commands
 ---
