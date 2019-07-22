@@ -78,7 +78,8 @@ Troubleshooting
    If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
    * Execute command “sudo chmod -R 777.” when your current directory path is at “../CypherTestBin/”
    * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./cypher -–datadir chaindb  init ../genesis.json”
-   * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
+   * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing\
+
   If  KeyBlockNumber or TxBlockNumber of your node is stucked or show errors repeat.try the following tips:
    * The simplest way is to run "```./urestart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
      height.
