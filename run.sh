@@ -12,7 +12,7 @@ CLIDETAILMODE="--detail"
 CLISILENTMODE="--silent"
 CLIMODE=$CLIDETAILMODE
 
-if [[ "$2" != "" ]];then
+if [ "$2" != "" ];then
    CLIMODE=$2
 fi
 
