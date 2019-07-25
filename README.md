@@ -193,8 +193,8 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.30  
+Current Version: CypherTestNet v1.30
 ChainId: 123004
-Fix Problem: system of reward
+Fix Problem: system of reward  
 User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block chain
 
