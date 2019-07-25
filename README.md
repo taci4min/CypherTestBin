@@ -8,7 +8,7 @@ Operating system support
 ---
 Cypherium is compatible with Mac, Windows, and Linux operating systems.
 
-Public IP for VPS needed
+Public iP for VPS is needed
 --
 Your ip of your machine or VPS which used to deploy cypher node  must be `public IP`.such AWS ec2 which has `public IP` to deploy your cypher node!
 Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you also need to shut firewalld.service by using command `systemctl stop firewalld.service`
@@ -57,7 +57,7 @@ and another for those who run the git clone. Either will work, depending on your
 ```
   cd linux
  ```
- Run the Cypher Process
+ Run the cypher
  ---
 
  #### init database
@@ -146,7 +146,7 @@ Txpool
  all transactions in your nodes database and memory
 
 
-Manual Send Transaction Demonstration
+Manual send transaction demonstration
 --
 #### 1.Guarantee you have two account
 check this through “cph.accounts”
@@ -190,4 +190,11 @@ you can check miner’s candidate from yourself and other nodes.
 
 #### 4.miner.stop()
 Stop the to find candidate to take part in consensus.
+
+Current version for user
+---
+Current Version: CypherTestNet v1.30
+ChainId: 123004
+Fix Problem: system of reward
+User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block chain
 

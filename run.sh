@@ -27,6 +27,6 @@ while [ $# -ge 2 ] ; do
                 *) echo "unknown parameter $2." ; exit 1 ; break;;
         esac
 done
-
+killall -HUP cypher
 $BINDIR  --onetport 7000 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $NODE_DIR --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
 
