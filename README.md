@@ -197,4 +197,3 @@ Current Version: CypherTestNet v1.30<br>
 ChainId: 123004<br>
 Fix Problem: system of reward<br>
 User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block chain
-
