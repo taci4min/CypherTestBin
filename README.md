@@ -74,18 +74,19 @@ Congratulations! You have successfully started the Cypherium testnet!
 Troubleshooting
 ---
    #### If you get `panic: not exists jdk class!` crash
-   Please give the `jdk` folder read/write permission by typing `sudo chmod -R 777 ./jdk`.
+   * Execute `sudo passwd` to create root password if you have not created.
+   * Please give the `jdk` folder read/write permission by typing `sudo chmod -R 777 ./jdk`.
    #### If you cannot execute the bin, try the following tips:
+   *  Make sure you are operating on the root account of your computer. (You can do this with the command “sudo” and entering your password.
+   If you have not created a root password yet, `sudo passwd` will help you set a password to your root account.)
+   * Execute command `sudo chmod -R 777 .` when your current directory path is at `../CypherTestBin/`
+   * Execute `sudo rm -rf chaindb` to delete the database. Then, regenerate the database by executing `./cypher -–datadir chaindb  init ../genesis.json`
+   * Execute shell `./urestart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
    *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
-   If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
-   * Execute command “sudo chmod -R 777 .” when your current directory path is at “../CypherTestBin/”
-   * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./cypher -–datadir chaindb  init ../genesis.json”
-   * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
-   *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
-   If you have not created a root password yet, “su passwd” will help you set a password to your root account.)
-   * Execute command “sudo chmod -R 777 .” when your current directory path is at “../CypherTestBin/”
-   * Execute “sudo rm -rf chaindb” to delete the database. Then, regenerate the database by executing “./cypher -–datadir chaindb  init ../genesis.json”
-   * Execute shell "./urestart.sh" can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
+   If you have not created a root password yet, `sudo passwd` will help you set a password to your root account.)
+   * Execute command `sudo chmod -R 777 .` when your current directory path is at `../CypherTestBin/`
+   * Execute `sudo rm -rf chaindb` to delete the database. Then, regenerate the database by executing `./cypher -–datadir chaindb  init ../genesis.json`
+   * Execute shell `./urestart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
 
    #### If KeyBlockNumber or TxBlockNumber of your node is stucked or show errors repeat.try the following tips:
    * The simplest way is to run "```./urestart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
