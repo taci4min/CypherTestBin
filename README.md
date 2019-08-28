@@ -189,7 +189,7 @@ After miner.start(),your can check your current status or your current node role
 
 You will wait minimum 1 hour to check with command function for miner.status() to confirm whether your node have been promoted successfully.
 If you are node accounts status is "I'm committee member, Doing consensus." or "I'm leader, Doing consensus."your account have been chosen into committee successfully:
-e
+
 
 Finally,after waiting about 1 hour you can check you account’s balance through function for cph.getBalance()
 #### 3.miner.content()
