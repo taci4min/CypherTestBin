@@ -21,7 +21,7 @@ Download repository
     ```
    sudo apt-get install git  
     ```
-    
+
    for mac,visit follow URL to install:
     ```
     http://sourceforge.net/projects/git-osx-installer/
@@ -188,3 +188,9 @@ Current Version: CypherTestNet v1.30<br>
 ChainId: 123004<br>
 Fix Problem: system of reward<br>
 User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block chain
+
+Update newest command
+---
+```
+git pull
+```
