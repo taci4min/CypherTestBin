@@ -15,13 +15,23 @@ Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you 
 
 Download repository
 ---
- #### 1. Open the terminal and clone repository:
+ We suggest you switch your computer account to root to have all the right.
+ #### 1. Install Git:
+   for linux,run follow command:
+    ```
+   sudo apt-get install git
+    ```
+   for mac,visit follow URL to install:
+    ```
+    http://sourceforge.net/projects/git-osx-installer/
+    ```
+ #### 2. Open the terminal and clone repository:
  ```
   git clone https://github.com/cypherium/CypherTestBin.git
   cd CypherTestBin
   ls
  ```
- #### 2. You will see two folders: `mac` is for MacOS and `linux` for Linux system.
+ #### 3. You will see two folders: `mac` is for MacOS and `linux` for Linux system.
  ```
   cd mac
 ```
@@ -35,11 +45,11 @@ Download repository
  #### init database
  for console detail print mode you should run this:
  ```
- ./ustart.sh
+ sudo ./ustart.sh
  ```
  or  for silent mode,just show errors ,you should run this
  ```
- ./ustart.sh --silent
+ sudo ./ustart.sh --silent
  ```
 Congratulations! You have successfully started the Cypherium testnet!
 
