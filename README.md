@@ -15,11 +15,11 @@ Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you 
 
 Download repository
 ---
- We suggest you switch your computer account to root to have all the right.
+ We suggest you switch your computer account to root account
  #### 1. Install Git:
    for linux,run follow command:
     ```
-   sudo apt-get install git
+   sudo apt-get install git  
     ```
    for mac,visit follow URL to install:
     ```
