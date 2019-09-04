@@ -191,6 +191,4 @@ User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block ch
 
 Update command for latest version
 ---
-```
-git pull
-```
+```git pull```
