@@ -189,7 +189,7 @@ ChainId: 123004<br>
 Fix Problem: system of reward<br>
 User needs to do:run ```./urestart.sh``` to start one new CypherTestNet block chain
 
-Update newest command
+Update command for latest version
 ---
 ```
 git pull
