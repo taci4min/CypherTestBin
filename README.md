@@ -21,6 +21,7 @@ Download repository
     ```
    sudo apt-get install git  
     ```
+    
    for mac,visit follow URL to install:
     ```
     http://sourceforge.net/projects/git-osx-installer/
