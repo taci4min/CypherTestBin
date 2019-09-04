@@ -15,37 +15,9 @@ Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you 
 
 Download repository
 ---
-There are two methods available for users to download the repository and execute the bin. One for users who chose not to install the Cypherium, 
-and another for those who run the git clone. Either will work, depending on your preference.
-* #### Download method number one — for users not installing the git
-  ##### 1. Please visit https://github.com/cypherium/CypherTestBin
-
-  ##### 2. Click “Download ZIP”
-
-  ##### 3. When the download is complete, extract the folder.
-
-  ##### 4. Rename the folder, “CypherTestBin.”
-
-  ##### 5. Next, open terminal.
-  ```
-  cd ~/Downloads/CypherTestBin
-  ls
-  ```
-  You will see two folders: mac is for MacOS and linux for Linux system.
-  ##### vii.select one folder according to your operating system
-  ```
-  cd mac
-  ```
-  or
-  
-  ``` 
-  cd linux
-  ```
-* #### Second download method — if using git clone
-
  #### 1. Open the terminal and clone repository:
  ```
-  git clone git@github.com:cypherium/CypherTestBin.git
+  git clone https://github.com/cypherium/CypherTestBin.git
   cd CypherTestBin
   ls
  ```
