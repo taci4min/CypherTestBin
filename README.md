@@ -44,6 +44,7 @@ Download repository
  ---
 
  #### init database
+ We suggest you run the script under root account of computer
  for console detail print mode you should run this:
  ```
  sudo ./ustart.sh
