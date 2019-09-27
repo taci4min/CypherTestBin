@@ -1,4 +1,4 @@
-## Deploy
+## Deploy Cypherium Full Node from GCP
 ### Start
 ![](../../images/GCP/start.png)
 #### Please note:   
@@ -55,5 +55,5 @@ cd cypherium/CypherTestBin/linux/
 you will see:
 ![](../../images/GCP/run.png)
 
-## Next step
+### Next step
 Please enter our [Github](https://github.com/cypherium/CypherTestBin/),to operate commands.
