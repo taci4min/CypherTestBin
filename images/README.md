@@ -1,8 +1,9 @@
 ## Deploy
 ### Start
 ![](./GCP/start.png)
-Please note: The estimated cost shown on the Google Cloud Marketplace does not include Google Cloud’s network cost. On average, the network cost should
-be around $10/mo. You can find out more about network service pricing from Google Cloud.Deploying and joining the Cypherium network is as simple as a
+#### Please note:   
+The estimated cost shown on the Google Cloud Marketplace does not include Google Cloud’s network cost. On average, the network cost should
+be around $10/mo. You can find out more about network service pricing from Google Cloud(https://cloud.google.com/network-tiers/pricing).Deploying and joining the Cypherium network is as simple as a
 few clicks. From our marketplace page,click on the “Launch on Compute Engine” button, and you should be able to see the following page to configure your
 instance.
 ### Edit
@@ -55,4 +56,4 @@ you will see:
 ![](./GCP/run.png)
 
 ## Next step
-Please enter our Github,to operate commands.
+Please enter our Github(https://github.com/cypherium/CypherTestBin/),to operate commands.
