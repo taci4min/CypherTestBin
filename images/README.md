@@ -36,12 +36,15 @@ disk space will offer plenty of room to store chain data allowing the node to ru
 long time into the future.
 
 ![](./GCP/warn.png)
+
 After the instance is created, SSH it
+
 ### SSH connect
 ![](./GCP/ssh.png)
 
 Waiting some seconds,you will login in,such as:
 ![](./GCP/root.png)
+
 Please change compute account to root,by typing su,if you have not created a root password yet, 'sudo passwd' will help you set a password to your root
 account.The default password is '1'
 ### Run
