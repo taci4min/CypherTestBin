@@ -1,59 +1,59 @@
 {
   "config": {
-    "chainId": 123005,
+    "chainId": 123006,
     "homesteadBlock": 0,
     "eip155Block": 0,
     "eip158Block": 0,
-    "reconfigstrategy":1,
+    "reconfigstrategy":0,
     "reconfigBlock":0,
     "committee":{
       "0": {
-        "address": "tcp://54.202.165.57:7000",
+        "address": "tcp://34.219.255.120:7000",
         "suite": "Ed25519",
         "coinbase": "461f9d24b10edca41c1d9296f971c5c028e6c64c",
-        "public": "e52426a55834fac9a7b412bd58509bdec42869344a743a51a4cf712e1ef1f08e",
+        "public": "5fc6b49fd13537f37a7029ef87700db08c881f8a408d20c6ce802dba15eefa1b29864e62705c4f1d50b1839d356f287d05d105854bcc0cb5cbf306f3b9238499",
         "description": "Cnode_0"
       },
       "1": {
-        "address": "tcp://52.36.155.84:7000",
+        "address": "tcp://34.215.205.63:7000",
         "suite": "Ed25519",
         "coinbase": "01482d12a73186e9e0ac1421eb96381bbdcd4557",
-        "public": "cde869fa7e1b8fc65906adea570ac7e406aa16fec37e92c6ec2f71d163804255",
+        "public": "6d5adb5bf79ae936f8f7e19da8cb7e62865273cf816f4715f00205e6f4f1f70146c0d0fa98e6a802511b287ad0677bb0acdfead172b889bc936629687a082a21",
         "description": "Cnode_1"
       },
       "2": {
-        "address": "tcp://52.42.69.238:7000",
+        "address": "tcp://54.187.52.201:7000",
         "suite": "Ed25519",
         "coinbase": "f38c108b7bdc80fe64fcc34f567ea1a790b8352e",
-        "public": "0fdba951d6680b6b1edcd6e3a9cf2fa68cc598f193a159865a9f3ee713cfdfcc",
+        "public": "1c97f8f160cfab59d73f7bc2111f94c17b0e3ccf328fd3252fa2ea18f9c4171908d123a8850b923446b6a159a373816adab2c2b3436d91af65a0d883c4a22d08",
         "description": "Cnode_2"
       },
       "3": {
-        "address": "tcp://34.209.154.253:7000",
+        "address": "tcp://34.219.243.212:7000",
         "suite": "Ed25519",
         "coinbase": "86f4cccfab55af24c08cac6396fe10c98e8d3e0d",
-        "public": "105d040a81e4c11d20afc1e9035386e7b2a645f72d09d1386509dab703b8f2b6",
+        "public": "db5fae6392cd75167eccf720022ab34100ec16e97d3ddd2e2f6e0fee1bab171718066ced58b89014ad8d3aa6edf2334da8d5a231ecbcb0366f669f89c0d872a0",
         "description": "Cnode_3"
       },
       "4": {
-        "address": "tcp://52.37.217.121:7000",
+        "address": "tcp://34.223.240.249:7000",
         "suite": "Ed25519",
         "coinbase": "3b85b60e209e1f5c4ba7d0a11070652ff64a3de0",
-        "public": "2cfb744600f1e3d20915973c569bae8e70ed2c92cc7d40c0a344e010c948c901",
+        "public": "c1f40525c495b686e5eafb3de9765bfdbd4f9dd57b75351b3a9421e7f6b7d507d7a8ac0067dd4c0e1d431c8c9c48e95e2d72cab0447ce0446978bc7919f4c112",
         "description": "Cnode_4"
       },
       "5": {
-        "address": "tcp://34.208.146.123:7000",
+        "address": "tcp://52.41.10.80:7000",
         "suite": "Ed25519",
         "coinbase": "e89ec57f938dd0ecc595763d4082cb0f05a05e87",
-        "public": "ec4a9ecee032316be4777526e695a114d059374736b997d866cc713d164d579f",
+        "public": "a90245f4056ec1abc035b16809964d093a52e934b5f4e412f097949be65fab232062e213af621d759d54e9a1bd2dcec987f53ed37a1f0d3f2e8a580823d07d0c",
         "description": "Cnode_5"
       },
       "6": {
-        "address": "tcp://18.237.28.203:7000",
+        "address": "tcp://54.71.144.60:7000",
         "suite": "Ed25519",
         "coinbase": "33528b25c0b0cb6022d1cb9f41ba45ac485000a4",
-        "public": "c50d3ce2c2f0ba4709f45933037608561eddb2615bf8cf7c671f95ea478e766f",
+        "public": "5a8acbe00bb59ba6c629ea647244914cfe6a9cd0d9a9a4896600f918e61a8b0ce5d32e3d071f9f28c129bea50dc264713a5c09c6e7be8a812e0b755c12fd3509",
         "description": "Cnode_6"
       }
 
@@ -75,6 +75,9 @@
     "3b85b60e209e1f5c4ba7d0a11070652ff64a3de0":{
       "balance": "1000000000000000000000000"
     },
+    "e89ec57f938dd0ecc595763d4082cb0f05a05e87":{
+      "balance": "1000000000000000000000000"
+    },
     "33528b25c0b0cb6022d1cb9f41ba45ac485000a4":{
       "balance": "1000000000000000000000000"
     },
@@ -87,22 +90,18 @@
     "c3b1519c2bb2bfba50e7cd2d158182d0b271b663":{
       "balance": "1000000000000000000000000"
     },
-    "e89ec57f938dd0ecc595763d4082cb0f05a05e87":{
-      "balance": "1000000000000000000000000"
-    },
     "0fd21a5ffee5cb696addf89733585cb556f0cdf5":{
       "balance": "1000000000000000000000000"
     },
-    "f1d7e6eae4bba83a8b61c057133bf2e9122e2d23":{
+    "f10c06e640b4b0935045eaef9b1c91fe1b00cc56":{
       "balance": "1000000000000000000000000"
     },
-    "504d84cf28d6ebed097a0a7f7a993a9166766b71":{
+    "557220998791103dd2e0f9ed858f919dcd19290c":{
       "balance": "1000000000000000000000000"
     }
   },
   "coinbase"   : "0x0000000000000000000000000000000000000000",
   "difficulty" : "0x4400CC",
-  "extraData"  : "",
   "gasLimit"   : "0xE7E7E7",
   "nonce"      : "0x0000000000000042",
   "mixhash"    : "0x0000000000000000000000000000000000000000000000000000000000000002",

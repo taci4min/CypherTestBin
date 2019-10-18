@@ -186,8 +186,8 @@ Stop the to find candidate to take part in consensus.
 Current version for user
 ---
 Current Version: CypherTestNet v1.30<br>
-ChainId: 123005<br>
-Fix Problem: fix git clone method<br>
+ChainId: 123006<br>
+Update: Add hotstuff for cypherBFT which contain pow without permission<br>
 User needs to do:```git pull```
 
 
