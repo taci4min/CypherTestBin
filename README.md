@@ -188,6 +188,6 @@ Current version for user
 Current Version: CypherTestNet v1.40<br>
 ChainId: 123006<br>
 Update: Add hotstuff for cypherBFT which contain pow without permission<br>
-User needs to do:```git pull```
+User needs to do:```git pull```  ```./urestart.sh```
 
 
