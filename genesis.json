@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 123006,
+    "chainId": 123007,
     "homesteadBlock": 0,
     "eip155Block": 0,
     "eip158Block": 0,
@@ -55,6 +55,13 @@
         "coinbase": "33528b25c0b0cb6022d1cb9f41ba45ac485000a4",
         "public": "5a8acbe00bb59ba6c629ea647244914cfe6a9cd0d9a9a4896600f918e61a8b0ce5d32e3d071f9f28c129bea50dc264713a5c09c6e7be8a812e0b755c12fd3509",
         "description": "Cnode_6"
+      },
+      "7": {
+        "address": "tcp://54.213.217.180:7000",
+        "suite": "Ed25519",
+        "coinbase": "4030936fda177443785e2e460d7971a68deb7c78",
+        "public": "a0d87a1e6d02db8a81c9757bbd3d2f12cce0192c2c6b6c73fc6c6b7b1ea52d1159a3a3799ec2ef511adc88eba88f45a3817b9ddc87deca1aaa2a1bd84cd5e688",
+        "description": "Cnode_7"
       }
 
     }
