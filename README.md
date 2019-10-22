@@ -23,8 +23,12 @@ sudo apt-get install libssl-dev
  ```
 for mac:
  ```
-sudo apt-get install openssl
-sudo apt-get install libssl-dev
+git clone https://github.com/openssl/openssl
+cd openssl
+sudo ./config --prefix=/usr/local/openssl
+make
+make install
+openssl version
  ```
 Download repository
 ---
