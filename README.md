@@ -13,6 +13,19 @@ Public iP for VPS is needed
 Your ip of your machine or VPS which used to deploy cypher node  must be `public IP`.such AWS ec2 which has `public IP` to deploy your cypher node!
 Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you also need to shut firewalld.service by using command `systemctl stop firewalld.service`
 
+Install the openssl
+--
+
+for linux
+ ```
+sudo apt-get install openssl
+sudo apt-get install libssl-dev
+ ```
+for mac:
+ ```
+sudo apt-get install openssl
+sudo apt-get install libssl-dev
+ ```
 Download repository
 ---
  We suggest you switch your computer account to root account
@@ -185,8 +198,8 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.40<br>
-ChainId: 123007<br>
+Current Version: CypherTestNet v1.41<br>
+ChainId: 123008<br>
 Update: Add hotstuff for cypherBFT which contain pow without permission<br>
 User needs to do:```git pull```  ```./urestart.sh```
 
