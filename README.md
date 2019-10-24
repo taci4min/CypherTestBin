@@ -202,9 +202,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.41<br>
-ChainId: 123008<br>
-Update: Add hotstuff for cypherBFT which contain pow without permission<br>
+Current Version: CypherTestNet v1.42<br>
+ChainId: 123009<br>
+Update: 21 committee member nodes<br>
 User needs to do:```git pull```  ```./urestart.sh```
 
 
