@@ -8,6 +8,6 @@ WORKDIR /app
 EXPOSE 30301
 EXPOSE 16002
 EXPOSE 18002
-EXPOSE 7000
+EXPOSE 7100
 WORKDIR /app/linux
-CMD /bin/bash ./ustart.sh
+CMD /bin/bash ./start.sh

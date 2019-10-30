@@ -1,32 +1,57 @@
 #!/bin/sh
-OSTYPE=$1
-NODE_DIR="./$OSTYPE/chaindb"
 BOOTDIR="./bootnode.log"
 GENESISDIR="./genesis.json"
 LOGLEVEL=3
-BINDIR="./$OSTYPE/cypher"
 bootnode_addr=cnode://"$(grep cnode $BOOTDIR|tail -n 1|awk -F '://' '{print $2}')"
-$BINDIR --datadir "$NODE_DIR" init $GENESISDIR
+
 IPENCDISVALUE=1
 CLIDETAILMODE="--detail"
 CLISILENTMODE="--silent"
 CLIMODE=$CLIDETAILMODE
 
-if [[ "$2" != "" ]];then
-   CLIMODE=$2
+if [[ "$1" != "" ]];then
+   CLIMODE=$1
 fi
+
+ostype()
+{
+  osname=`uname -s`
+ # echo "osname $osname"
+  OSTYPE=UNKNOWN
+  case $osname in
+     "FreeBSD") OSTYPE="freebsd"
+     ;;
+     "SunOS") OSTYPE="solaris"
+     ;;
+     "Linux") OSTYPE="linux"
+     ;;
+     "Darwin") OSTYPE="mac"
+     ;;
+     "linux") OSTYPE="linux"
+     ;;
+     "darwin") OSTYPE="mac"
+     ;;
+     *) echo "other system $osname"
+     ;;
+    esac
+  return 0
+}
+ostype
+CHAINDB="./$OSTYPE/chaindb"
+BINDIR="./$OSTYPE/cypher"
+
+#echo "CHAINDB $CHAINDB"
+#echo "BINDIR $BINDIR"
 
 NetWorkId=`less genesis.json|awk -F "[:]" '/chainId/{print $2}'`
 NetWorkId=`echo $NetWorkId | cut -d \, -f 1`
 echo "bootnode address: " $bootnode_addr
-echo "Client print mode: " $CLIMODE
+echo "Client print mode:$CLIMODE,please wait for some seconds!"
+sudo killall -HUP cypher
+if [[ "$CLIMODE" == "$CLIDETAILMODE" || "$CLIMODE" == "0" || "$CLIMODE" == " " ]] ; then
+   $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
+else
+   $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr  console 2>"cypherlog.txt"
+fi
 
-while [ $# -ge 2 ] ; do
-        case "$CLIMODE" in
-                $CLISILENTMODE) LOGLEVEL=1 ;shift 2;;
-                *) echo "unknown parameter $2." ; exit 1 ; break;;
-        esac
-done
-
-$BINDIR  --onetport 7000 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $NODE_DIR --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
 

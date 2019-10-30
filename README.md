@@ -11,7 +11,7 @@ Cypherium is compatible with Mac, Windows, and Linux operating systems.
 Public iP for VPS is needed
 --
 Your ip of your machine or VPS which used to deploy cypher node  must be `public IP`.such AWS ec2 which has `public IP` to deploy your cypher node!
-Please open 18002,16002,30301,7000 ports for UDP and TCP rule for VPS.Maybe you also need to shut firewalld.service by using command `systemctl stop firewalld.service`
+Please open 18002,16002,30301,7100 ports for UDP and TCP rule for VPS.Maybe you also need to shut firewalld.service by using command `systemctl stop firewalld.service`
 
 Install the openssl
 --
@@ -49,14 +49,10 @@ Download repository
   cd CypherTestBin
   ls
  ```
- #### 3. You will see two folders: `mac` is for MacOS and `linux` for Linux system.
- ```
-  cd mac
-```
-  or
-```
-  cd linux
- ```
+ #### 3.List the mainly use files
+  `resetStart.sh`:can delete chaindb automic,and restart chaind directly,the txBlock and keyBlock will syn from 0.
+  `start.sh`:continue the txBlock and keyBlock Height,and going on.
+
  Run the cypher
  ---
 
@@ -64,12 +60,13 @@ Download repository
  We suggest you run the script under root account of computer
  for console detail print mode you should run this:
  ```
- sudo ./ustart.sh
+ sudo ./start.sh
  ```
- or  for silent mode,just show errors ,you should run this
+ or  for silent mode ,you should run this
  ```
- sudo ./ustart.sh --silent
+ sudo ./start.sh --silent
  ```
+ now the log is output to the `cypherlog.txt` file,you can check  the dynamic log.
 Congratulations! You have successfully started the Cypherium testnet!
 
 Troubleshooting
@@ -82,15 +79,15 @@ Troubleshooting
    If you have not created a root password yet, `sudo passwd` will help you set a password to your root account.)
    * Execute command `sudo chmod -R 777 .` when your current directory path is at `../CypherTestBin/`
    * Execute `sudo rm -rf chaindb` to delete the database. Then, regenerate the database by executing `./cypher -–datadir chaindb  init ../genesis.json`
-   * Execute shell `./urestart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
+   * Execute shell `./resetStart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
    *  Make sure you are operating on the root account of your computer. (You can do this with the command “su” and entering your password.
    If you have not created a root password yet, `sudo passwd` will help you set a password to your root account.)
    * Execute command `sudo chmod -R 777 .` when your current directory path is at `../CypherTestBin/`
    * Execute `sudo rm -rf chaindb` to delete the database. Then, regenerate the database by executing `./cypher -–datadir chaindb  init ../genesis.json`
-   * Execute shell `./urestart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
+   * Execute shell `./resetStart.sh` can delete database automic,and restart directly.As soon as you finding the chainId is different from previous chaindId which is checked through executing
 
    #### If KeyBlockNumber or TxBlockNumber of your node is stucked or show errors repeat.try the following tips:
-   * The simplest way is to run "```./urestart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
+   * The simplest way is to run "```./resetStart.sh```".This command will clean all db and sync start all over again,so will cost about several hours accourd to KeyBlockNumber and TxBlockNumer
      height.
    * Calculate the parent number "N-1" for finally stucked TxBlockNumber or KeyBlockNumber.We assume bad KeyBlockNumber N is 7077,so it's parent KeyBlockNumber is 7076:
 
@@ -202,9 +199,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.43<br>
+Current Version: CypherTestNet v1.44<br>
 ChainId: 123010<br>
-Update: fix leader switch timeout<br>
-User needs to do:```git pull```  ```./urestart.sh```
+Update: rewrite cypherbin start method<br>
+User needs to do:```git pull```
 
 

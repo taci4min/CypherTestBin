@@ -51,7 +51,7 @@ account.The default password is '1'
 ### Run
 Then enter to the path,and run the script:
 cd cypherium/CypherTestBin/linux/
-./ustart.sh
+./start.sh
 you will see:
 ![](../../images/GCP/run.png)
 
