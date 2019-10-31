@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 BOOTDIR="./bootnode.log"
 GENESISDIR="./genesis.json"
 LOGLEVEL=3
@@ -48,7 +48,7 @@ NetWorkId=`echo $NetWorkId | cut -d \, -f 1`
 echo "bootnode address: " $bootnode_addr
 echo "Client print mode:$CLIMODE,please wait for some seconds!"
 sudo killall -HUP cypher
-if [[ "$CLIMODE" == "$CLIDETAILMODE" || "$CLIMODE" == "0" || "$CLIMODE" == " " ]] ; then
+if [[ "$CLIMODE" == "$CLIDETAILMODE" || "$CLIMODE" == "0" || "$CLIMODE" == " " ]];then
    $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
 else
    $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 16002 --rpcport 18002 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr  console 2>"cypherlog.txt"
