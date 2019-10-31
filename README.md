@@ -210,8 +210,14 @@ ChainId: 123010<br>
 Update: rewrite cypherbin start method<br>
         ```
         ./start.sh --silent<br>
+        ```
+        ```
         ./start.sh --detail<br>
+        ```
+        ```
         ./resetStart.sh --silent<br>
+        ```
+        ```
         ./resetStart.sh --detail<br>
         ```
 User needs to do:```git pull```
