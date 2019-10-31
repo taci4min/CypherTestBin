@@ -209,16 +209,10 @@ Current Version: CypherTestNet v1.44<br>
 ChainId: 123010<br>
 Update: rewrite cypherbin start method<br>
         ```
-        ./start.sh --silent<br>
-        ```
-        ```
-        ./start.sh --detail<br>
-        ```
-        ```
-        ./resetStart.sh --silent<br>
-        ```
-        ```
-        ./resetStart.sh --detail<br>
+        ./start.sh --silent
+        ./start.sh --detail
+        ./resetStart.sh --silent
+        ./resetStart.sh --detail
         ```
 User needs to do:```git pull```
 
