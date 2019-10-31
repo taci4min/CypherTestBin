@@ -52,6 +52,7 @@ Download repository
  #### 3.List the mainly use files
   `resetStart.sh`:can delete chaindb automic,and restart chaind directly,the txBlock and keyBlock will syn from 0.
   `start.sh`:continue the txBlock and keyBlock Height,and going on.<br>
+  
    Below are all start mode commands:<br>
    ```./start.sh --silent```or ```./start.sh 1``` :start cypher application and output the log to the cypherlog.txt<br>
    ```./start.sh --detail```or ```./start.sh 0```:start cypher application and print the log online<br>
