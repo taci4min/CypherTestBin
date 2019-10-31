@@ -52,6 +52,11 @@ Download repository
  #### 3.List the mainly use files
   `resetStart.sh`:can delete chaindb automic,and restart chaind directly,the txBlock and keyBlock will syn from 0.
   `start.sh`:continue the txBlock and keyBlock Height,and going on.
+   Below are the all start mode commands
+   ```./start.sh --silent```or ```./start.sh 1``` :start cypher application and output the log to the cypherlog.txt<br>
+   ```./start.sh --detail```or ```./start.sh 0```:start cypher application and print the log online<br>
+   ```./resetStart.sh --silent```or ```./start.sh 1```:reset start cypher application and output the log to the cypherlog.txt<br>
+   ```./resetStart.sh --detail```or ```./start.sh 0```:reset start cypher application and print the log online<br>
 
  Run the cypher
  ---
@@ -202,6 +207,10 @@ Current version for user
 Current Version: CypherTestNet v1.44<br>
 ChainId: 123010<br>
 Update: rewrite cypherbin start method<br>
+        ./start.sh --silent<br>
+        ./start.sh --detail<br>
+        ./resetStart.sh --silent<br>
+        ./resetStart.sh --detail<br>
 User needs to do:```git pull```
 
 
