@@ -206,14 +206,14 @@ Stop the to find candidate to take part in consensus.
 Current version for user
 ---
 Current Version: CypherTestNet v1.44<br>
-ChainId: 123010<br>
-Update: rewrite cypherbin start method<br>
+ChainId: 123012<br>
+Update: view change timer monitor disable problem<br>
 ```
         ./start.sh --silent
         ./start.sh --detail
         ./resetStart.sh --silent
         ./resetStart.sh --detail
 ```
-User needs to do:```git pull```
+User needs to do:```git pull``` ```./resetStart.sh```
 
 
