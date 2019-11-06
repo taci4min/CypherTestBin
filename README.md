@@ -205,15 +205,15 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.44<br>
+Current Version: CypherTestNet v1.45<br>
 ChainId: 123012<br>
-Update: view change timer monitor disable problem<br>
+Update: view change timeout value adjustment<br>
 ```
         ./start.sh --silent
         ./start.sh --detail
         ./resetStart.sh --silent
         ./resetStart.sh --detail
 ```
-User needs to do:```git pull``` ```./resetStart.sh```
+User needs to do:```git pull``` ```./Start.sh```
 
 
