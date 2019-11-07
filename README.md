@@ -207,7 +207,7 @@ Current version for user
 ---
 Current Version: CypherTestNet v1.45<br>
 ChainId: 123012<br>
-Update: view change timeout value adjustment<br>
+Update: fix unhandled message<br>
 ```
         ./start.sh --silent
         ./start.sh --detail
