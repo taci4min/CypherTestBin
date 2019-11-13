@@ -205,15 +205,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.47<br>
-ChainId: 123014<br>
-Update: candidateVersion filter,if not newest code version,you will can not join in committee<br>
-```
-        ./start.sh --silent
-        ./start.sh --detail
-        ./resetStart.sh --silent
-        ./resetStart.sh --detail
-```
-User needs to do:```git pull``` ```./Start.sh```
+Current Version: CypherTestNet v1.48<br>
+ChainId: 123015<br>
+Update: gasLimit recovery<br>
+User needs to do:```git pull``` ```./resetStart.sh```
 
 
