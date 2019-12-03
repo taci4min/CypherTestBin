@@ -206,8 +206,8 @@ Stop the to find candidate to take part in consensus.
 Current version for user
 ---
 Current Version: CypherTestNet v1.49<br>
-ChainId: 123015<br>
-Update: improve hotstuff network reconnect<br>
-User needs to do:```git pull``` ```./start.sh```
+ChainId: 123016<br>
+Update: <br>
+User needs to do:```git pull``` ```./resetStart.sh```
 
 
