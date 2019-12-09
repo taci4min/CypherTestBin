@@ -13,10 +13,9 @@ After you have configured your JDK environment, execute javac --version in the C
 $​ javac -version 
 javac 1.8.xxx
 ```
-Download repository
+Enter ContractExample path
 
  ```
-   git clone https://github.com/cypherium/CypherTestBin.git
    cd CypherTestBin/ContractExample
  ```
 
