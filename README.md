@@ -135,7 +135,7 @@ With the database up and running, try out these commands
 
 #### 1. cph.txBlockNumber
 
-#### 2. personal.newAccount("1")
+#### 2. personal.newAccount("cypher2019xxddlllaaxxx")
 Among " " your should assign one password
 
 #### 3. net
@@ -205,9 +205,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.49<br>
+Current Version: CypherTestNet v1.50<br>
 ChainId: 123017<br>
-Update: <br>
+Update: add ContractExample folder<br>
 User needs to do:```git pull``` ```./resetStart.sh```
 
 
