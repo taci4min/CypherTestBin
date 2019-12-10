@@ -6,7 +6,7 @@ Cypherium has just released its public testnet. This tutorial will help develope
 
 Operating system support
 ---
-Cypherium is compatible with Mac, Windows, and Linux operating systems.
+Cypherium is compatible with Mac, Windows, and Linux operating systems.Now we just provide Mac and Linux platform TestBin.
 
 Public iP for VPS is needed
 --
