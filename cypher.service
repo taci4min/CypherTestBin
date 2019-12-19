@@ -1,0 +1,11 @@
+[Unit]
+Description=Cypherium go client
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/home/ubuntu/CypherTestBin/resetStart.sh
+Restart=on-abort
+[Install]
+WantedBy=multi-user.target
