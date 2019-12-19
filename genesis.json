@@ -1,6 +1,6 @@
 {
   "config": {
-    "chainId": 123020,
+    "chainId": 123021,
     "homesteadBlock": 0,
     "eip155Block": 0,
     "eip158Block": 0,
@@ -15,91 +15,91 @@
         "description": "Cnode_0"
       },
       "1": {
-        "address": "tcp://54.202.212.33:7100",
+        "address": "tcp://34.210.173.37:7100",
         "suite": "Ed25519",
         "coinbase": "f57a9d489bf74545a4f05caa49c02262811b9d23",
         "public": "7ae335f72f190141a1d9ecdc632082f1c010c71924bccaba9cc8140acaf23e19dac1cdeeff657357e6bc3b79926f2d29d62518d0c456901894d0c49f3589b98a",
         "description": "Cnode_1"
       },
       "10": {
-        "address": "tcp://52.35.24.121:7100",
+        "address": "tcp://54.200.231.216:7100",
         "suite": "Ed25519",
         "coinbase": "8c5250657644d9b745a0f5e0de91f78b54fb53d0",
         "public": "5f8db0eec930f4a6411e00695e9564beeb5b860173bedb7afa640bfc1a2dbd03e71d8930e6ed746d2d3d1244f834f8f653fae95ac5049c1f55bdd64c655f470f",
         "description": "Cnode_10"
       },
       "11": {
-        "address": "tcp://54.200.231.216:7100",
+        "address": "tcp://54.189.16.203:7100",
         "suite": "Ed25519",
         "coinbase": "434e882b9405da7d9658f032b91cdf7e8835077a",
         "public": "8d04de0545e913e509df06b9da1aa65de68b2e7eeda2e6a721acdd5072217012851b66c2dc3223a483a89d53ef989a2a09667d8e734a3ed7fff7d254a2debea4",
         "description": "Cnode_11"
       },
       "12": {
-        "address": "tcp://54.189.16.203:7100",
+        "address": "tcp://52.27.156.166:7100",
         "suite": "Ed25519",
         "coinbase": "a698617d970bc243b81994a1ba517a6b0c207353",
         "public": "1155902ded135ffe11e7368f222e03a3aa4dff6ef6ce2dab2c1044f8ff4fe81283184e2b5e422b6564b8b6b5ed1a508d9a354b9e764963b519a040b5c13e7987",
         "description": "Cnode_12"
       },
       "13": {
-        "address": "tcp://52.27.156.166:7100",
+        "address": "tcp://52.43.99.18:7100",
         "suite": "Ed25519",
         "coinbase": "c578245735e6134281ef01bbdd4c8eedd347fa5f",
         "public": "9b8016d14c29d78c8226c01afbee093e990e21c77d8f96fc2f6239396dcde001a6e214f7710723b9d14578ad853013d0f0b425a7085265ac53a04caa54f33c05",
         "description": "Cnode_13"
       },
       "14": {
-        "address": "tcp://52.43.99.18:7100",
+        "address": "tcp://54.186.178.210:7100",
         "suite": "Ed25519",
         "coinbase": "79bfdd469033770e549d6f3a7fd1188b47a0321c",
         "public": "2283c11e20424938c187c6fe14f458f5e119f165134fb9841b563767970703222f2180fe90ca733c3637c4a3505874db29778060d9fdf0bd08c5032b8094f50e",
         "description": "Cnode_14"
       },
       "15": {
-        "address": "tcp://54.186.178.210:7100",
+        "address": "tcp://54.70.225.101:7100",
         "suite": "Ed25519",
         "coinbase": "8ec476cf7a6192a7053585d7fe7494b637156b07",
         "public": "57bed358328cf91cef071d57c614a9943571ae7ef7849b80a178593f43ef670cb94c89ee140e4af2cff9aaa17d270928d8a6140108d9b9dc4d4824250655028a",
         "description": "Cnode_15"
       },
       "16": {
-        "address": "tcp://54.70.225.101:7100",
+        "address": "tcp://34.221.182.118:7100",
         "suite": "Ed25519",
         "coinbase": "b7ddd0d0b83538ba9e4f4bc9be62de541ad1acfc",
         "public": "48fcc9869ffad8e66a13965f78b3f994a739898f64ac511bb7b21e934a980a0e79f7781fb471796f838e88b5b6bbb7180640896f0a4f477d7f7d69f26d608087",
         "description": "Cnode_16"
       },
       "17": {
-        "address": "tcp://34.221.182.118:7100",
+        "address": "tcp://54.212.193.204:7100",
         "suite": "Ed25519",
         "coinbase": "7e67f90249f80e8a36cccbf627bade10ce1437b6",
         "public": "5e9826ac6a00e488a36cde5b5b23067f9786bf6d00504d40667a63c92e0cd504f88e24995c17160660784a9c30e035067cfb040008513ca480bfca11f0c3c386",
         "description": "Cnode_17"
       },
       "18": {
-        "address": "tcp://54.212.193.204:7100",
+        "address": "tcp://34.209.155.45:7100",
         "suite": "Ed25519",
         "coinbase": "9d91da57b22476b6c264d7c3f48dc067b9c268c9",
         "public": "4080393a39cf2b3f4ee7368ed6eec62c471796155c932ccc6a4b3752fd55a70163cba70c5d8899c044e39a2d7f01a5fc8766278e5c84806fa5c478d9a1f39b8e",
         "description": "Cnode_18"
       },
       "19": {
-        "address": "tcp://34.209.155.45:7100",
+        "address": "tcp://54.149.157.211:7100",
         "suite": "Ed25519",
         "coinbase": "bfeebf6e9c33a5a96963e0a37225ff69020a1baf",
         "public": "cf3f32ea0ed2960ec6992bf38074406a8eeee126c9fa5c2053f2ebfafa132d03374093d502e30e1ca20a636af445fcd4ce6d4f2afd8a5f5e87ee59d5175a4080",
         "description": "Cnode_19"
       },
       "2": {
-        "address": "tcp://34.210.173.37:7100",
+        "address": "tcp://54.184.127.75:7100",
         "suite": "Ed25519",
         "coinbase": "cacd08980d08ec8d86155bc723c838b1d208e050",
         "public": "e4d84fdecbb4a363623caead76040f09d7639fad9b030764fa5050f5bd3cd62102432c7e2e887c51ba70787e1ee572ad271d0be3bc708a1fe3a2a32351edad8a",
         "description": "Cnode_2"
       },
       "20": {
-        "address": "tcp://54.149.157.211:7100",
+        "address": "tcp://52.12.112.139:7100",
         "suite": "Ed25519",
         "coinbase": "a9450eed1d4dccf60f443bda1c28cfd24104712b",
         "public": "5521cd84f2023a08d1c08a20363f245ecefd85b3772b2e7d165ff5ed1671eb0d8c02d1871bae27f052eeacc9b526b63bae830c65536f81a994bf52ad8379c58d",
@@ -113,336 +113,336 @@
         "description": "Cnode_21"
       },
       "22": {
-        "address": "tcp://52.12.112.139:7100",
+        "address": "tcp://34.223.228.244:7100",
         "suite": "Ed25519",
         "coinbase": "2dc13373f3e4ade41f96e49d17e6aa6eaacddd3b",
         "public": "bd7ac29bdde08e9093e45fcf3a83644c9553abec516b5d9a1171ea9c01c935030ad178a9d3578caf7d9fb69b6f232adf4ab7b23ef9aad7df612f61688a0ff28c",
         "description": "Cnode_22"
       },
       "23": {
-        "address": "tcp://34.223.228.244:7100",
+        "address": "tcp://54.212.64.196:7100",
         "suite": "Ed25519",
         "coinbase": "96870ae80342d6619241309bd38ffb0523bed8af",
         "public": "07db7c17a7428eac6579d64556b791ecd5718e547ee364fa048849274ddc490fcae033de852cbd28892f28e107b13965fc5eda7e4817a325d4293422993f538a",
         "description": "Cnode_23"
       },
       "24": {
-        "address": "tcp://54.212.64.196:7100",
+        "address": "tcp://34.219.242.1:7100",
         "suite": "Ed25519",
         "coinbase": "b855d098eae7c6b5e616b5d36e5bff31e28b6d63",
         "public": "14dbb969aca26115629bb4290132f947eef68ce2cc46bbd1fd17015b9335f01e4a707c9e326ae537516d04077213aac38d6fbc93102abcc168ba096f31349b14",
         "description": "Cnode_24"
       },
       "25": {
-        "address": "tcp://34.219.242.1:7100",
+        "address": "tcp://34.219.183.173:7100",
         "suite": "Ed25519",
         "coinbase": "082175a49a44feceafa2dff4a9236da5fac16025",
         "public": "4d05f73910d08244dacd292bbe59078abbf83b47b4a80c4ee3b674a71998900174894ee5dbe2c7640475256d06426ccb209b28cf55c8bd57434565bf4a574a9f",
         "description": "Cnode_25"
       },
       "26": {
-        "address": "tcp://34.219.183.173:7100",
+        "address": "tcp://34.221.74.237:7100",
         "suite": "Ed25519",
         "coinbase": "806de2334b1a9aed0ea8da6ea278dd8ef9616973",
         "public": "3390f1dd25d93c9d5dca89108bb48bbe629549530c78c372c094ddd8f7d1b12281c75e0a8d6bb4355b71f73a387c217f438f5084308c70089d29ebb5846e320a",
         "description": "Cnode_26"
       },
       "27": {
-        "address": "tcp://34.221.74.237:7100",
+        "address": "tcp://34.220.222.110:7100",
         "suite": "Ed25519",
         "coinbase": "69352809b21b7ed712870f1f4dd90a724580689d",
         "public": "363bbc5967905f094a2164b9eb97a695ad7df4325bdf14d0cda131bd5a30ae03c72d97bdf9f15ee0f6c120f5dcf945ace203b3074ee8fa704688ffca9f59758c",
         "description": "Cnode_27"
       },
       "28": {
-        "address": "tcp://34.220.222.110:7100",
+        "address": "tcp://54.190.171.139:7100",
         "suite": "Ed25519",
         "coinbase": "fdee3c0508365081499c4246dee0ee3caa7c4212",
         "public": "fadd606cf72a558a94b4eb9a3a817085a7022d7455521e4d876034bdcc35251815d7f1eeb3f505ba409c7c24dc75f4b0c4a22918f6ac2e1c72916bd03d0ec822",
         "description": "Cnode_28"
       },
       "29": {
-        "address": "tcp://54.190.171.139:7100",
+        "address": "tcp://34.210.171.73:7100",
         "suite": "Ed25519",
         "coinbase": "6d0da0d42828ede971ac2df30fe31426ee934a67",
         "public": "421daa1915c16f362ef12f8d34bb919d7fe189ded9fb41d592a1a7a7b7dc23020effbb654ead7de77f4b8bda5c2dadd49df504585b5aec78c204eedfdc196494",
         "description": "Cnode_29"
       },
       "3": {
-        "address": "tcp://54.184.127.75:7100",
+        "address": "tcp://34.219.243.212:7100",
         "suite": "Ed25519",
         "coinbase": "cdd624c7431da606b80c0da697d5676f350f418d",
         "public": "bf36d88726edb90c46f6a874f9b70634862c4bd7721b6498d02c718b87bb550a4c01913265ee241330a52734784965fe664fb5a418e4e8f034fe237daf0d0812",
         "description": "Cnode_3"
       },
       "30": {
-        "address": "tcp://34.210.171.73:7100",
+        "address": "tcp://54.185.50.132:7100",
         "suite": "Ed25519",
         "coinbase": "811d08ed5eb76a67cfe18cd0b06dd49a88ebf572",
         "public": "56e4e9bf87fa351b3e62febd708d5005dac6d8c256199ab5aa582a1d229c2d08fdd28b2c388845595bb0a87cc2234acc2ad3c653e8b74d3ae3fcbfb0d26f31a2",
         "description": "Cnode_30"
       },
       "31": {
-        "address": "tcp://54.185.50.132:7100",
+        "address": "tcp://34.209.47.131:7100",
         "suite": "Ed25519",
         "coinbase": "487345d85cb3fbd6550fe8488175ab01571f316c",
         "public": "2977b19d9b1fda73d9c9fd5402d9690bc93764fba479c715daec301d7f368c11f0825b57983c4eeef60c1285749a5017f1282c85383ba9ae056ea2c665fb4480",
         "description": "Cnode_31"
       },
       "32": {
-        "address": "tcp://34.209.47.131:7100",
+        "address": "tcp://34.220.247.127:7100",
         "suite": "Ed25519",
         "coinbase": "fb4cf59b4074c545c67049d0a99f588d87067547",
         "public": "f49d454fe058103aeb2ed35ac7672726cab665c32b9840677eb45cc9eb296716cad3ff6de83b46cf64cadd7efba4d07f71283cb329cbb1865c7f8ff112e9bea3",
         "description": "Cnode_32"
       },
       "33": {
-        "address": "tcp://34.220.247.127:7100",
+        "address": "tcp://34.211.70.22:7100",
         "suite": "Ed25519",
         "coinbase": "1bbeefa5bb9d8d3a501c6576f63854006d601eb6",
         "public": "5db0df64ed7e78cfc8ff380675bbbdd7869ab2b2dd6558290f4ff6af087092239ba48f2444bc0a3286704a305d44590325e33be356ea8f1a84a8753ee8efe707",
         "description": "Cnode_33"
       },
       "34": {
-        "address": "tcp://34.211.70.22:7100",
+        "address": "tcp://52.25.223.40:7100",
         "suite": "Ed25519",
         "coinbase": "cef29e229f38a160c138348829691b6a1897970c",
         "public": "45407de330c9416d761534b9d68b19c7c98d4a873623709ee3785a1d8ae2a81e292103b07db8752e030aae51148fba7631578b65691fbb594ea51b8fd3d7ce88",
         "description": "Cnode_34"
       },
       "35": {
-        "address": "tcp://52.25.223.40:7100",
+        "address": "tcp://52.88.7.155:7100",
         "suite": "Ed25519",
         "coinbase": "272de0878bf9a518a6cb159f7fa8846eea77bd32",
         "public": "a7a9e829914fffe8f32427fa172ed82ba3ca338ba1628385db9448227a9daf11bcf8b1b97313e321058453395054b9b3fce785453c4b4bb6b36afbf10b842d13",
         "description": "Cnode_35"
       },
       "36": {
-        "address": "tcp://52.88.7.155:7100",
+        "address": "tcp://54.202.208.89:7100",
         "suite": "Ed25519",
         "coinbase": "6a760dace14e4338254a5f04f2a1aa378fb80ad2",
         "public": "59290c1aac046651fd4add8b338dcf2665894202b43a4d7522a402e1e3414524e8d223ef1533676b8f70e061e6eb6efdc9680ac99f324276bc9e1e8507474104",
         "description": "Cnode_36"
       },
       "37": {
-        "address": "tcp://54.202.208.89:7100",
+        "address": "tcp://34.219.58.164:7100",
         "suite": "Ed25519",
         "coinbase": "76c5df696fc1e0ccc949d9b28007c4c2fa7c0f1a",
         "public": "3592a37e70e2c8ae87fd5c984a84b933180edd11ba25d66ca28aedcb5533c221448eb628f4f6e39d04d4cf36fd7171675a2cd3d56327cd18c33aff9e22dd3a20",
         "description": "Cnode_37"
       },
       "38": {
-        "address": "tcp://34.219.58.164:7100",
+        "address": "tcp://34.208.62.4:7100",
         "suite": "Ed25519",
         "coinbase": "5ec2de16da0b93a925e65b521d34230d2492939f",
         "public": "52e472bc3171530c1789a3f72054e7aeda1b26dc9c2e363fc9fee1d83f19fd20c61122d207466f813080f9cac2ba11f5ea8eb61d41366867907eff4e37ea4c88",
         "description": "Cnode_38"
       },
       "39": {
-        "address": "tcp://34.208.62.4:7100",
+        "address": "tcp://54.213.13.162:7100",
         "suite": "Ed25519",
         "coinbase": "a5734d13c53cedb26ebcb8de8bf608b5452abe84",
         "public": "a30300cd1e13ef78bab25451f362a95f1dbe772ccad2e9d703a3e5898e0fd119118860294d6b263d75fd7e7e87e662dddb0aa491c93006a60f813ab968549598",
         "description": "Cnode_39"
       },
       "4": {
-        "address": "tcp://34.219.243.212:7100",
+        "address": "tcp://34.223.240.249:7100",
         "suite": "Ed25519",
         "coinbase": "361fac39a57f23d152261211ed662e76e2c7fa30",
         "public": "fa085e90178014dced592be1fac0b21fc6c338d33a3d762d0948f25b35e3d612c0501f29bff2c4e25336d0f1a03576a6583e1aa7b3d0ae08b56feffc5ee29f8f",
         "description": "Cnode_4"
       },
       "40": {
-        "address": "tcp://54.213.13.162:7100",
+        "address": "tcp://34.219.76.209:7100",
         "suite": "Ed25519",
         "coinbase": "c994103fa5c2256ad4a26eff55283100bc7b9fb1",
         "public": "5458159acea1dd61b86b15e151f7cd376a54a458c0f52fde10b8f72fbdc8451d25f585342f2ce1ecbb6083a29e579da55f46f04637648f3ae8e38fa03361be07",
         "description": "Cnode_40"
       },
       "41": {
-        "address": "tcp://34.219.76.209:7100",
+        "address": "tcp://54.201.140.135:7100",
         "suite": "Ed25519",
         "coinbase": "c0e840ee0d879b9682363c6adcece4cb8065434d",
         "public": "578b8a3252cd798b9448cfea39e21ab8f745286ccb6e8612e71ecd0220b19b0dba918667966cbbf6eafa3baf1d8244bb6a7135961c4f9e39a4f43794a7ced605",
         "description": "Cnode_41"
       },
       "42": {
-        "address": "tcp://54.201.140.135:7100",
+        "address": "tcp://34.212.141.58:7100",
         "suite": "Ed25519",
         "coinbase": "5fe1b2bad02cb03fc9a960190b2a3f97e325a48a",
         "public": "f442be6406139276299345372ce7e1517e6d00d4e095a71426a6a19c04c025001135db8518e73f088d1401ef987c56883ddd305a6da2ba580545b8979fffec81",
         "description": "Cnode_42"
       },
       "43": {
-        "address": "tcp://34.212.141.58:7100",
+        "address": "tcp://50.112.11.60:7100",
         "suite": "Ed25519",
         "coinbase": "2b714801867431f82e2372fad010635a55b83778",
         "public": "e97cd13fe291f4a6386b438940fff98249e1a38aad57b9c5fc006f0fcd6bf8210f35386c8c06f17e3672c8a922c14ad9e44d6a60cd90611fcaaba5a5fed7370b",
         "description": "Cnode_43"
       },
       "44": {
-        "address": "tcp://50.112.11.60:7100",
+        "address": "tcp://18.236.133.78:7100",
         "suite": "Ed25519",
         "coinbase": "db6d5080d85864f2d6ce62d7b285549b5698e53b",
         "public": "39da607b8f405c7dc80df5a8df771d609129d33e7621fb6a4a086864bbe093083442e6f400cb88a343d76f79ff6a633be4787b264ebd4f3ea920076fd4954f21",
         "description": "Cnode_44"
       },
       "45": {
-        "address": "tcp://18.236.133.78:7100",
+        "address": "tcp://34.220.173.133:7100",
         "suite": "Ed25519",
         "coinbase": "6318623624430391a4e10f2c34c7c113dcfb9d9d",
         "public": "a063fb6a02b9be6be16eb2a776beeac59d28aeb3c492061dc6b50fbc84c75f22328df8ac4c6de93925fe9551f5ca138a6db284d09baa172ea40be47cdb47238a",
         "description": "Cnode_45"
       },
       "46": {
-        "address": "tcp://34.220.173.133:7100",
+        "address": "tcp://54.187.127.0:7100",
         "suite": "Ed25519",
         "coinbase": "d35301d01562ab25cc78b52c48c6ba98da12bffa",
         "public": "3581a342f92d50d53892b235508ef9abd6e9de7de3ea5eb8aad60a5707d02b1f2302ff14ebdcd84d7f6659d4c53d65bbfb55488d2e94457f972776160ad45709",
         "description": "Cnode_46"
       },
       "47": {
-        "address": "tcp://54.187.127.0:7100",
+        "address": "tcp://34.222.57.194:7100",
         "suite": "Ed25519",
         "coinbase": "041ae1e10cf66d67038592132f7d6b9427c8a00a",
         "public": "59f244558ab923f05b596f4cc1087212a881dba358b30a5c254b481bc3d33602fbf79ac44cd875c44e5291c09d4012530873b34d7ec6d2e8ceee4b01d31acd21",
         "description": "Cnode_47"
       },
       "48": {
-        "address": "tcp://34.222.57.194:7100",
+        "address": "tcp://54.201.152.74:7100",
         "suite": "Ed25519",
         "coinbase": "63024aaf1b67b69082c8f757561d6ba664295668",
         "public": "843a9e761fc768ebbd2669551394626ca3d31102a9ea2c856713f5f7dd9b8c0074e9f6b43d769073a023400b8c35b4f22b517c5434b88d530449767f4fb29f0b",
         "description": "Cnode_48"
       },
       "49": {
-        "address": "tcp://54.201.152.74:7100",
+        "address": "tcp://52.12.127.50:7100",
         "suite": "Ed25519",
         "coinbase": "970105858743c006c76eacc50cb2743a74c3b962",
         "public": "3e2561b9ad80aee24f34456ad90c6c8f4600c581c9663766e1dda5a3c395b61699901fd1d3ff53fb7aaa87e356a23e1c195cd36f86e5f59341eb62d0cc82f781",
         "description": "Cnode_49"
       },
       "5": {
-        "address": "tcp://34.223.240.249:7100",
+        "address": "tcp://52.41.10.80:7100",
         "suite": "Ed25519",
         "coinbase": "0e38b0bd96233094527b63885881d437a5a74295",
         "public": "d84c5805799913c420d732961ee9967b8dfa0125484973ab7f795cddbd8c96195cf1a5c9b463dbc666bfe3d6b0c2dc2ec68d2bd8b29b098301c2b1449fb2e313",
         "description": "Cnode_5"
       },
       "50": {
-        "address": "tcp://52.12.127.50:7100",
+        "address": "tcp://52.43.111.167:7100",
         "suite": "Ed25519",
         "coinbase": "1ff8ce9ea31cb6962e0b83f23661cb550771b7b3",
         "public": "016abc58c7b3e4047f7ecb43bacb0adfc12944075bc701f48890904b24264e01f57beea4775ce462ea742eda237632b0cd236923906a8696b5bd31a01af6e381",
         "description": "Cnode_50"
       },
       "51": {
-        "address": "tcp://52.43.111.167:7100",
+        "address": "tcp://34.222.141.108:7100",
         "suite": "Ed25519",
         "coinbase": "d554bf94b715114b34d42a8f875d988921dedbac",
         "public": "e34f694d9a4ed4cc36eea5d7c2aea4c94e0d7e8b7d3052a10e6247af00e9f911a5ca1b419e0f586efb86bfed222aa702bfea1391b98398cdeeade5560652ffa0",
         "description": "Cnode_51"
       },
       "52": {
-        "address": "tcp://34.222.141.108:7100",
+        "address": "tcp://52.37.92.191:7100",
         "suite": "Ed25519",
         "coinbase": "bc5cae992fd4a839f2db0f610543195f8484f62f",
         "public": "b08c37f566915a110f2270770cc0a0dc7196c228399925d78cade738bad3ff167e01238b4560e23a16085e20fcec0e35bb4f0f18d26f419089569c724d7486a4",
         "description": "Cnode_52"
       },
       "53": {
-        "address": "tcp://52.37.92.191:7100",
+        "address": "tcp://34.215.217.228:7100",
         "suite": "Ed25519",
         "coinbase": "1b505f1675a50ecf59ce8e1a7acfc658ea91b06e",
         "public": "e62569524a74211e890038e5af7b16642ac00d22ff644ccb32a24ab87edc9e21555bd162ebf147aa1fd9a1ad0087bb2d8506e828756590548816523fbffde098",
         "description": "Cnode_53"
       },
       "54": {
-        "address": "tcp://34.215.217.228:7100",
+        "address": "tcp://35.162.189.158:7100",
         "suite": "Ed25519",
         "coinbase": "c1bbe66b92772b784c45c1efcb69aaea4a3d4399",
         "public": "8f3202a79d3727ada9486c808792579b6357269cda37c3a26fec33ac86794d0cd9d9d863c6ef6b087d3a484b54a339f587ee4d3590119ba4d941c30035e3b304",
         "description": "Cnode_54"
       },
       "55": {
-        "address": "tcp://35.162.189.158:7100",
+        "address": "tcp://34.215.82.122:7100",
         "suite": "Ed25519",
         "coinbase": "dbb471adaedf664a4a88c8405b128dbc0ade8f7d",
         "public": "bc5efa73ca8d28baccf2cdb704b095b15f61d3b66b955645c87ac7bffa833c1a74ad1cbdc748a7a54f01789edc08918cf7352bbcfe7f7f6df336394e65a3a508",
         "description": "Cnode_55"
       },
       "56": {
-        "address": "tcp://34.215.82.122:7100",
+        "address": "tcp://54.188.1.17:7100",
         "suite": "Ed25519",
         "coinbase": "85ed0345a2fffcf2c12ca7c661cddd098d344b37",
         "public": "32ad8183d86f3864e3809f26edaf0591287806f5375ed165fdba2cc627255f0dac6522878f9a79c54f8b5a185b87c3f7aae34687338ebc3689709e59c674de1d",
         "description": "Cnode_56"
       },
       "57": {
-        "address": "tcp://54.188.1.17:7100",
+        "address": "tcp://18.236.150.51:7100",
         "suite": "Ed25519",
         "coinbase": "f3893d0d5139a1da015e18e67c7548aa5b5cf112",
         "public": "97e2c210e98c0aae0a5b97db6c12e5e6c7a87874684476f37c21a6fe04c23f2062c23806d285c6bcf2e4daa4547092a1807b817da1abdb73cff18e1ad9222187",
         "description": "Cnode_57"
       },
       "58": {
-        "address": "tcp://18.236.150.51:7100",
+        "address": "tcp://54.190.194.53:7100",
         "suite": "Ed25519",
         "coinbase": "78038f66e82f9b030dc20a04ff793dc86ee05884",
         "public": "7f16ca7ae11f2bbb4c00dcb768398dede330b75dae54f56ad758be0cf24a531bf2ded18315078fa2cdfdbc8eb412badd1f5e39014559b6725f7cbdc387e5879a",
         "description": "Cnode_58"
       },
       "59": {
-        "address": "tcp://54.190.194.53:7100",
+        "address": "tcp://54.190.59.42:7100",
         "suite": "Ed25519",
         "coinbase": "3d26179f653cdbbaed0c1fba4fb5a523e403a5db",
         "public": "c2d22978755dc14db65db7bbb01ccac3461145faf21965203e04f38953122907dd90c3ad89b2de512747c4c983b3bc30c7e31d38b173300f5529ed5a18315a9e",
         "description": "Cnode_59"
       },
       "6": {
-        "address": "tcp://52.41.10.80:7100",
+        "address": "tcp://54.71.144.60:7100",
         "suite": "Ed25519",
         "coinbase": "651bfde2d60b30080b7a8a9aee7be0a05cf88a8c",
         "public": "f193340034317338df91dc28755d4ac6b1402f2e8251592e9b73fd81511add1839e296a546571a6930310ea6197ef5089b6c2d46132bab033a3eeccb9d404e24",
         "description": "Cnode_6"
       },
       "60": {
-        "address": "tcp://54.190.59.42:7100",
+        "address": "tcp://52.40.228.244:7100",
         "suite": "Ed25519",
         "coinbase": "c0e8895025160b754b32cefe7f6ece1a93b36c68",
         "public": "0f3a3aff85f1e9155d246350bc5c7c07ae3902a4591daf740f84befa9f72341f86a299fc61e4816e71780ec6e8b58de9ddf739127764b20cef600c85bb957f1f",
         "description": "Cnode_60"
       },
       "61": {
-        "address": "tcp://52.40.228.244:7100",
+        "address": "tcp://35.165.4.76:7100",
         "suite": "Ed25519",
         "coinbase": "5d705c8704498f5a6e911c58bfe64c1c10713cb5",
         "public": "21d34325189afaadfb204645d00021964451b44ab7770cb31d401e8cb4fe21242c76428641f469c93465fd7472c2ff772524192e7fbf60cc094f08b5099d4011",
         "description": "Cnode_61"
       },
       "62": {
-        "address": "tcp://35.165.4.76:7100",
+        "address": "tcp://54.185.50.43:7100",
         "suite": "Ed25519",
         "coinbase": "ba9b5e07bd738a9b18200c25d94f08518de438fa",
         "public": "8254f05a51fc5ba41e411bc0563b749dce3a7594621e0575a346ce20d2f2f817a9bebb4756798eb102f48c57cda11fb96c4d4a200c359e505ad43ef2b9766304",
         "description": "Cnode_62"
       },
       "7": {
-        "address": "tcp://54.71.144.60:7100",
+        "address": "tcp://54.184.2.44:7100",
         "suite": "Ed25519",
         "coinbase": "18ea46865ea0e243a308d6577b9255d521567c79",
         "public": "8727de52001fd8111929d256547ab0af175357e27d109b7f0211278c1cfaf91b153f5430d3cb12dd460a2cc4f0649cabd760d74f4ac99e2737d8d175e5c78584",
         "description": "Cnode_7"
       },
       "8": {
-        "address": "tcp://54.184.2.44:7100",
+        "address": "tcp://54.70.78.125:7100",
         "suite": "Ed25519",
         "coinbase": "10a11628506dd64653526c11fe01723fe4ee660d",
         "public": "545537022e89d2d8119db3899f4fea4f1d6e3780b718a497d0e7218316ba82161d38d590998b2d9524be7d13eb3a0d8568e1e0dd9d95179288ecc5f586ff4706",
         "description": "Cnode_8"
       },
       "9": {
-        "address": "tcp://54.70.78.125:7100",
+        "address": "tcp://52.35.24.121:7100",
         "suite": "Ed25519",
         "coinbase": "8cb85308a71483143305cd3ed92902b62026d773",
         "public": "a11c96d93c16e8c082bdd0533b9c9818eac534e55b5eb2bc42ce6c75d9f65a0fcc2a64be98c07db46e3974b0be166199644f6bf067a1f48e50614a63b8a6e8a4",

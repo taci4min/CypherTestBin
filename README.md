@@ -205,9 +205,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.50<br>
-ChainId: 123017<br>
-Update: add ContractExample folder<br>
+Current Version: CypherTestNet v1.53<br>
+ChainId: 123021<br>
+Update: fix smart contract bug for common node<br>
 User needs to do:```git pull``` ```./resetStart.sh```
 
 
