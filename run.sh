@@ -7,7 +7,7 @@ bootnode_addr=cnode://"$(grep cnode $BOOTDIR|tail -n 1|awk -F '://' '{print $2}'
 IPENCDISVALUE=1
 CLIDETAILMODE="--detail"
 CLISILENTMODE="--silent"
-CLIMODE=$CLIDETAILMODE
+CLIMODE=$CLISILENTMODE
 
 if [[ "$1" != "" ]];then
    CLIMODE=$1
@@ -47,10 +47,11 @@ NetWorkId=`less genesis.json|awk -F "[:]" '/chainId/{print $2}'`
 NetWorkId=`echo $NetWorkId | cut -d \, -f 1`
 echo "bootnode address: " $bootnode_addr
 echo "Client print mode:$CLIMODE,please wait for some seconds!"
-if [[ "$CLIMODE" == "$CLIDETAILMODE" || "$CLIMODE" == "0" || "$CLIMODE" == " " ]];then
-   $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 6000 --rpcport 8000 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
-else
+if [[ "$CLIMODE" == "$CLISILENTMODE" || "$CLIMODE" == "0" || "$CLIMODE" == " " ]];then
    $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 6000 --rpcport 8000 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr  console 2>"cypherlog.txt"
+else
+   $BINDIR  --onetport 7100 --nat "none" --ws --tps --ipencdis $IPENCDISVALUE -wsaddr="0.0.0.0" --wsorigins "*" --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcapi cph,web3,personal,miner --port 6000 --rpcport 8000 --verbosity $LOGLEVEL --datadir $CHAINDB --networkid $NetWorkId --gcmode archive --bootnodes $bootnode_addr console
+
 fi
 
 

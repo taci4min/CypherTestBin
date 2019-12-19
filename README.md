@@ -54,10 +54,10 @@ Download repository
   `start.sh`:continue the txBlock and keyBlock Height,and going on.<br>
 
    Below are all start mode commands:<br>
-   ```./start.sh --silent```or ```./start.sh 1``` :start cypher application and output the log to the cypherlog.txt<br>
-   ```./start.sh --detail```or ```./start.sh 0```:start cypher application and print the log online<br>
-   ```./resetStart.sh --silent```or ```./start.sh 1```:reset start cypher application and output the log to the cypherlog.txt<br>
-   ```./resetStart.sh --detail```or ```./start.sh 0```:reset start cypher application and print the log online<br>
+   ```./start.sh --silent```or ```./start.sh 0``` :start cypher application and output the log to the cypherlog.txt<br>
+   ```./start.sh --detail```or ```./start.sh 1```:start cypher application and print the log online<br>
+   ```./resetStart.sh --silent```or ```./start.sh 0```:reset start cypher application and output the log to the cypherlog.txt<br>
+   ```./resetStart.sh --detail```or ```./start.sh 1```:reset start cypher application and print the log online<br>
 
  Run the cypher
  ---
@@ -66,11 +66,11 @@ Download repository
  We suggest you run the script under root account of computer
  for console detail print mode you should run this:
  ```
- sudo ./start.sh
+ sudo ./start.sh --silent
  ```
  or  for silent mode ,you should run this
  ```
- sudo ./start.sh --silent
+ sudo ./start.sh
  ```
  now the log is output to the `cypherlog.txt` file,you can check  the dynamic log.
 Congratulations! You have successfully started the Cypherium testnet!
