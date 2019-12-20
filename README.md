@@ -175,7 +175,7 @@ personal.unlockAccount("0x461f9d24b10edca41c1d9296f971c5c028e6c64c")
 ```
 #### 4.sendTransaction
 ```
-cph.sendTransaction({from:'461f9d24b10edca41c1d9296f971c5c028e6c64c',to: '01482d12a73186e9e0ac1421eb96381bbdcd4557', value: 1000})
+cph.sendTransaction({from:'461f9d24b10edca41c1d9296f971c5c028e6c64c',to: '01482d12a73186e9e0ac1421eb96381bbdcd4557', value: 1000000000000000000})
 ```
 #### 5.wait several seconds to checkout balance
 ```
