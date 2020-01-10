@@ -205,9 +205,9 @@ Stop the to find candidate to take part in consensus.
 
 Current version for user
 ---
-Current Version: CypherTestNet v1.6<br>
+Current Version: CypherTestNet v1.61<br>
 ChainId: 123022<br>
-Update: optimize tcp layer communication<br>
-User needs to do:```git pull``` ```./resetStart.sh```
+Update: runtime.GC()<br>
+User needs to do:```git pull``` ```./start.sh```
 
 
