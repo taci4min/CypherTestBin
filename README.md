@@ -206,8 +206,8 @@ Stop the to find candidate to take part in consensus.
 Current version for user
 ---
 Current Version: CypherTestNet v1.61<br>
-ChainId: 123022<br>
-Update: runtime.GC()<br>
+ChainId: 123023<br>
+Update: <br>
 User needs to do:```git pull``` ```./start.sh```
 
 
