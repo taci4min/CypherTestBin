@@ -66,7 +66,7 @@ Download repository
  We suggest you run the script under root account of computer
  for console detail print mode you should run this:
  ```
- sudo ./start.sh --silent
+ sudo ./start.sh --detail
  ```
  or  for silent mode ,you should run this
  ```
@@ -206,8 +206,8 @@ Stop the to find candidate to take part in consensus.
 Current version for user
 ---
 Current Version: CypherTestNet v1.61<br>
-ChainId: 123025<br>
+ChainId: 123027<br>
 Update: <br>
-User needs to do:```git pull``` ```./start.sh```
+User needs to do:```git pull``` ```./resetStart.sh```
 
 
